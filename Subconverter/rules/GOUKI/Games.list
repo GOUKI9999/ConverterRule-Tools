@@ -1,7 +1,9 @@
 # > CustomGame
 DOMAIN-SUFFIX,BBBYYY.com
+
 PROCESS-NAME,AAAZZZ.exe
 PROCESS-NAME,helldivers2.exe
 PROCESS-NAME,valheim.exe
 PROCESS-NAME,VRisingServer.exe
 PROCESS-NAME,VRising.exe
+PROCESS-NAME,eldenring.exe

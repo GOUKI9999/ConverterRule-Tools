@@ -5,6 +5,9 @@ PROCESS-NAME,Fork.exe
 PROCESS-NAME,smartgit.exe
 PROCESS-NAME,GitHubDesktop.exe
 PROCESS-NAME,SourceTree.exe
+DOMAIN-SUFFIX,appslist.heimdall.site
+DOMAIN-SUFFIX,tindercloud.com
+DOMAIN-SUFFIX,globalvisionad.com
 DOMAIN-SUFFIX,announce.zerotier.com
 DOMAIN-SUFFIX,my.zerotier.com
 DOMAIN-SUFFIX,netdata.cloud

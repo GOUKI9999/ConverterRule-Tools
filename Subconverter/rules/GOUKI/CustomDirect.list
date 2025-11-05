@@ -1,18 +1,22 @@
 # 内容：CustomDirect
 DOMAIN-SUFFIX,local
-DOMAIN-SUFFIX,ifunservice.com
-DOMAIN-SUFFIX,ifunbj.aihelp.net.in
-DOMAIN-SUFFIX,ifunums.s3.ap-southeast-1.amazonaws.com
-DOMAIN-SUFFIX,powerup.ifun.com
+DOMAIN-SUFFIX,iepose.com
+DOMAIN-SUFFIX,iepose.cn
+DOMAIN-SUFFIX,ionewu.com
 DOMAIN-SUFFIX,conda.anaconda.org
+DOMAIN-SUFFIX,123pan.cn
+DOMAIN-SUFFIX,123pan.com
 DOMAIN-SUFFIX,114menhu.com
 DOMAIN-SUFFIX,op.supes.top
+DOMAIN-SUFFIX,dogfight360.com
+DOMAIN-SUFFIX,max-c.com
 DOMAIN-SUFFIX,threebrother.top
 DOMAIN-SUFFIX,cutecloud.link
 DOMAIN-SUFFIX,s.juzicloud.vip
 DOMAIN-SUFFIX,aliyuncs.com
 DOMAIN-SUFFIX,opentracker.i2p.rocks
 DOMAIN-SUFFIX,500d.me
+DOMAIN-SUFFIX,alist.nn.ci
 DOMAIN-SUFFIX,dothantech.com
 DOMAIN-SUFFIX,faith.wang
 DOMAIN-SUFFIX,woozooo.com
@@ -22,6 +26,8 @@ DOMAIN-SUFFIX,amd.com
 DOMAIN-SUFFIX,ati.com
 DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,mainland.tivpn.com
+DOMAIN-SUFFIX,gamersky.com
+DOMAIN-SUFFIX,www.gmwiki.com
 DOMAIN-SUFFIX,ads.kwai.com
 DOMAIN-SUFFIX,services.googleapis.cn,DIRECT
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT
