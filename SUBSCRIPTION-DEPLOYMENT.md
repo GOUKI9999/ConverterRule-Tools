@@ -17,3 +17,7 @@
 路由器变更前备份：`/root/submgr-backups/quantity-limits-20261010-142701/`。详细部署记录：`/www/submgr/VALIDATION-20261010.md`。阈值检查下次 cron 生效。
 
 升级：先检查配置和语法，再备份目标文件，替换脚本，运行 `--check`。配置示例不能覆盖已有正式配置。反代代码本次只归档现行版本，无须重启服务。仓库提交后通过提交号定位对应源码。
+
+统一归档工具见 `tools/deployment-snapshot/README.md`：在既有 ACL4SSR 上游同步和生产发布成功后，记录当前 NAS 配置、规则、反代、网页以及路由器脚本并提交推送。不会合并 ACL4SSR 的 PR 筛选分支，也不会部署网页新版本。
+
+当前网页实际为 cmliu/SUBWEB 静态部署，归档在 `subweb/current-dist/`；NAS 的本地资源保留层在 `subweb/local-overlay/`。公开仓库的 base/配置/笔记已脱敏；实际认证配置仍只在服务器上，归档模板不能直接覆盖正式文件。

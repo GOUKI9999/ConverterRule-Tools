@@ -1,6 +1,7 @@
 # 内容：bard.google
 # 数量：19条
 DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,gemini.gstatic.com
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,aistudio.google.com
@@ -16,6 +17,12 @@ DOMAIN-KEYWORD,heygen-resources
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
+DOMAIN-KEYWORD,antigravity
+DOMAIN-KEYWORD,com.google.antigravity
+DOMAIN-KEYWORD,com.google.antigravity.helper
+DOMAIN-KEYWORD,grokipedia.com
+DOMAIN-KEYWORD,grokusercontent.com
+DOMAIN-KEYWORD,grok.com
 DOMAIN,ai.google.dev
 DOMAIN,makersuite.google.com
 DOMAIN-SUFFIX,deepmind.com
@@ -25,9 +32,12 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,antigravity-unleash.goog
+DOMAIN-SUFFIX,antigravity.google
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,colab.research.google.com
 DOMAIN,content-developerprofiles-pa.googleapis.com
 DOMAIN,cdn.usefathom.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
+PROCESS-NAME,antigravity.exe
+PROCESS-NAME,ide.exe
+PROCESS-NAME,language_server.exe

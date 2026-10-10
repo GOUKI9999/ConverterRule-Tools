@@ -12,3 +12,6 @@ https://github.com/ACL4SSR/ACL4SSR
 
 参考了
 https://github.com/ImAubrey/ImAubrey 的同机场规则转换（关键字处理部分和正则）
+
+当前部署、脚本及反代记录见 [SUBSCRIPTION-DEPLOYMENT.md](SUBSCRIPTION-DEPLOYMENT.md)。
+上游规则维护见 [ACL4SSR 同步](tools/acl4ssr-sync/README.md)，生产配置与网页归档见 [统一部署快照](tools/deployment-snapshot/README.md)。

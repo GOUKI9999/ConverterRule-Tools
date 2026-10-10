@@ -1,0 +1,7 @@
+# 内容：weather
+# 数量：x条
+DOMAIN-SUFFIX,www.wunderground.com
+DOMAIN-SUFFIX,upsx.wunderground.com
+DOMAIN-SUFFIX,weather.com
+DOMAIN-SUFFIX,mapbox.com
+DOMAIN-KEYWORD,weather

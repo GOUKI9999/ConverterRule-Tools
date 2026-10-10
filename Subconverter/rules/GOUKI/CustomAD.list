@@ -1,5 +1,4 @@
-# 内容：CustomBlock
-
+# 内容：CustomAD
 DOMAIN-SUFFIX,ads.raidrive.com
 DOMAIN-SUFFIX,pangleglobal.com
 DOMAIN-SUFFIX,byteoversea.com 
@@ -13,8 +12,18 @@ DOMAIN-SUFFIX,ironsrc.mobi
 DOMAIN-SUFFIX,ironsrc.net
 DOMAIN-SUFFIX,supersonic.com
 DOMAIN-SUFFIX,unity3d.com
+DOMAIN-SUFFIX,unity.com
+#DOMAIN-KEYWORD,appsflyer
 DOMAIN-SUFFIX,appsflyer.com
-DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,cdn.appsflyer.com
+#DOMAIN-SUFFIX,appsflyer.chat.getzowie.com
+DOMAIN-SUFFIX,hq1.appsflyer.com
 DOMAIN-SUFFIX,fyber.com
-DOMAIN-SUFFIX,mintegral.com
+DOMAIN-SUFFIX,bigossp.com
+DOMAIN-SUFFIX,bigoads.com
+DOMAIN-SUFFIX,bigo.sg
+DOMAIN-SUFFIX,moloco.com
+#DOMAIN-SUFFIX,mintegral.com
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,ads.axon.ai
 DOMAIN-SUFFIX,axon.ai

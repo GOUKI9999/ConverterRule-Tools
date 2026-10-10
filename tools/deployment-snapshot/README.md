@@ -21,4 +21,6 @@ python -B D:\Temp\CodeTemp\subscription-git-sync-20261010\runtime\snapshot.py --
 
 失败不回滚既有 Git 提交：写入失败可能留下待审查工作区；push 失败可能留下本地提交。修复后按日志人工检查，再继续推送。定时器只在 ACL4SSR 原发布任务成功后执行本步骤；原规则发布已成功时，快照失败也不会撤销它。
 
+规则保持生产原文，不为消除上游注释末尾空格而重写；`Subconverter/.gitattributes` 对 rules 范围关闭 whitespace 风格检查，其他源码继续检查。URL 查询参数（含编码形式）和已知订阅路径 token 同样脱敏。
+
 `run-pipeline.ps1 -Apply` 串行调用现有规则 runtime 的 `sync.py --apply`，成功后调用本工具 `--apply --commit --push`。不带 `-Apply` 时两阶段均只预览。现有每周日 04:00 任务保持频率、用户、权限不变，仅入口改为这个执行副本。

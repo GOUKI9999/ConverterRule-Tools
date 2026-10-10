@@ -57,6 +57,13 @@ class SnapshotTests(unittest.TestCase):
         self.assertNotIn(b'secret', result)
         self.assertIn(b'enable_cache = true', result)
 
+    def test_path_and_encoded_tokens(self):
+        data = b'https://x/link/private123?extend=1\nhttps://x/client/0123456789abcdef0123456789abcdef\nurl=https%3A%2F%2Fx%3Ftoken%3Dprivate123%26flag%3Dmeta\n'
+        result = snapshot.sanitize(data)
+        self.assertNotIn(b'private123', result)
+        self.assertNotIn(b'0123456789abcdef0123456789abcdef', result)
+        self.assertIn(b'%26flag%3Dmeta', result)
+
     def test_uri_rejected(self):
         with self.assertRaises(ValueError):
             snapshot.sanitize(b'vless://private@host')

@@ -92,6 +92,8 @@ Disable-ScheduledTask -TaskName 'ACL4SSR-Weekly-Upstream-Sync'
 
 长期离线无人登录也需要更新时，应另做 NAS 上的计划任务；当前 Windows/RaiDrive 方案不能提供这种保障。
 
+统一归档接续：每周任务入口改为 `D:\Temp\CodeTemp\subscription-git-sync-20261010\runtime\run-pipeline.ps1 -Apply`，先执行本 runtime 的 `sync.py --apply`，成功后记录 NAS/路由器/网页生产快照并推送 ConverterRule-Tools 的 `maintenance/acl4ssr-sync` 分支。原触发时间、用户和权限不变，`run-sync.ps1` 仍可独立执行。此配置不自动合并 PR；若后续切换归档分支，应同时更新快照 runtime/config.json。
+
 ## 测试和实施记录
 
 2026-10-10：先编写测试，再实现；11 项测试通过，包含真实 Git 仓库中的干净合并、冲突停止、脏工作区拒绝、预览不发布、二次幂等、个人规则保留及已提交生产编辑登记。模拟写失败确认旧文件保留。测试从 CodeTemp 副本执行，测试夹具留在那里。
