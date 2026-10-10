@@ -1,0 +1,10 @@
+/config.json
+/state/
+/archive/
+/incident_bak/
+/*.log
+/last_report.txt
+/last_report.sent
+/*.bak*
+/*.new
+/*.tmp
