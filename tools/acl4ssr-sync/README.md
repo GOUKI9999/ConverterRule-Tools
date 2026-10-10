@@ -67,14 +67,35 @@ python -B "$runtime\sync.py" --record-live Ruleset/Twitter.list
 
 ## 定时安排
 
-建议每周日 04:00，以当前用户、仅登录时运行；错过时间后可补跑，禁止同时启动多个实例，设置执行超时并检查退出码。当前尚未注册任务，等待选择频率。
+2026-10-10 已注册并启用 Windows 任务 `\ACL4SSR-Weekly-Upstream-Sync`：
+
+- 每周日 04:00，北京时间；首个计划时间为 2026-10-11 04:00。
+- 使用 `SWIFT3-470016G\gouki` 的交互登录会话和普通权限，不保存登录密码。
+- 启用错过时间后补跑；不唤醒计算机。用户未登录或 Y 盘不可用时不能完成更新。
+- 单实例运行，最多执行 15 分钟；失败后间隔 30 分钟最多重试 2 次，仍失败则保留日志待排查。
+- 允许电池供电时运行，切换为电池供电不会主动中断正在发布的文件。
 
 任务入口应使用 `C:\Program Files\PowerShell\7\pwsh.exe`，不存在时使用 `C:\Users\gouki\AppData\Local\Microsoft\WindowsApps\pwsh.exe`。不要引用随升级变化的 Store 安装目录。运行脚本见 `run-sync.ps1`，任务应指向 CodeTemp 的执行副本。
+
+当前使用 WindowsApps 稳定别名，参数为 `-NoLogo -NoProfile -NonInteractive -WindowStyle Hidden -File "D:\Temp\CodeTemp\ACL4SSR-upstream-maintenance-20261010\runtime\run-sync.ps1" -Apply`，工作目录为同一 runtime。任务在后台运行，不弹出终端窗口。
+
+```powershell
+# 查询下一次时间和上次退出码，0 表示成功。
+Get-ScheduledTaskInfo -TaskName 'ACL4SSR-Weekly-Upstream-Sync'
+# 按需手动触发同一任务。
+Start-ScheduledTask -TaskName 'ACL4SSR-Weekly-Upstream-Sync'
+# 需要暂停自动更新时执行；恢复使用 Enable-ScheduledTask。
+Disable-ScheduledTask -TaskName 'ACL4SSR-Weekly-Upstream-Sync'
+```
+
+清理 CodeTemp 时须保留上述 runtime，它包含在用的执行文件、部署状态、日志和备份。任务定义备份为同一任务目录下的 `scheduled-task.xml`；注册记录与试运行结果也保存在该目录。改变运行路径前需要同步调整任务入口并重新验证。
 
 长期离线无人登录也需要更新时，应另做 NAS 上的计划任务；当前 Windows/RaiDrive 方案不能提供这种保障。
 
 ## 测试和实施记录
 
 2026-10-10：先编写测试，再实现；11 项测试通过，包含真实 Git 仓库中的干净合并、冲突停止、脏工作区拒绝、预览不发布、二次幂等、个人规则保留及已提交生产编辑登记。模拟写失败确认旧文件保留。测试从 CodeTemp 副本执行，测试夹具留在那里。
+
+同日启用每周任务，通过任务调度器在 14:22:37 发起实际试运行，14:23:43 完成，退出码为 0。全部 364 个登记文件通过检查，0 个待发布变更，Git 工作区干净。验证记录见 `scheduled-trial-result.json`，最新状态与运行日志已更新。
 
 生产候选与最终发布结果见同日任务目录的 PLAN.md / REPORT.md，以及 runtime/runs。首次候选仅包含 ProxyGFWlist 的 list/Provider 和 UnBan Provider。其余个人规则按原样保留。
