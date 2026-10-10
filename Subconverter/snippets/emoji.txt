@@ -93,3 +93,5 @@
 (Bahrain|巴林), 🇧🇭
 (Myanmar|缅甸), 🇲🇲
 (Oman|阿曼), 🇴🇲
+(Liechtenstein|列支敦士登), 🇱🇮
+(Bosnia and Herzegovina|波斯尼亚和黑塞哥维那), 🇧🇦

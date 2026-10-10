@@ -1,0 +1,1778 @@
+{
+  "acl_production_head": "10658fb9493fb2a6b63c24f02394dd7f171cdeee",
+  "acl_upstream_head": "802e3abf065f8609e7d9073ba506158dbe2ba6e7",
+  "files": {
+    "Subconverter/GOUKI_subconverter_notes.md": {
+      "sha256": "df98ddb6271dbb04f1293edab2e7e1088c9481443d296bc63d6d44f188d26289",
+      "source": "Y:\\Public\\subconverter\\GOUKI_subconverter_notes.md"
+    },
+    "Subconverter/base/GOUKI_Base.yml": {
+      "sha256": "ae30300358b7516d3a69f6b9ef525f47c5439a6dd4e4b5c31e241ffa6d45d446",
+      "source": "Y:\\Public\\subconverter\\base\\GOUKI_Base.yml"
+    },
+    "Subconverter/config/GOUKI_Local.ini": {
+      "sha256": "b9d1297da3537fcba1a772c7e53076efbc7c695bb06f4cda5cfc65b50d5e5c1c",
+      "source": "Y:\\Public\\subconverter\\config\\GOUKI_Local.ini"
+    },
+    "Subconverter/config/GOUKI_Local2.ini": {
+      "sha256": "30de2feaf16b904e3e9112c60db6b5049f48a7da6294f1b9f594ac79959423a3",
+      "source": "Y:\\Public\\subconverter\\config\\GOUKI_Local2.ini"
+    },
+    "Subconverter/config/GOUKI_Online.ini": {
+      "sha256": "c5dd865dd13e9c7d8b12f802471c9c6cce371627f38e76b5267562c4a7be043b",
+      "source": "Y:\\Public\\subconverter\\config\\GOUKI_Online.ini"
+    },
+    "Subconverter/pref.current.example.toml": {
+      "sha256": "e9fc74c12d718d085b25908879ebe163f6ba2e8c8bf065dad9184af49f02580f",
+      "source": "Y:\\Public\\subconverter\\pref.toml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Apple.list": {
+      "sha256": "e2819bebf5391445d4fcce99d86c7ea29cc2de7880da295ed9d3a181ef5038d7",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Apple.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/BanAD.list": {
+      "sha256": "1c8cbc7e666a8e80791969c146e4806015a2b54e5d2f22af2bea412239349df6",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\BanAD.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/BanEasyList.list": {
+      "sha256": "b7326ec67f6ffb80b18049f216ef403a6f3fe5d1f6ac5f909962bf2caf4292c2",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\BanEasyList.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/BanEasyListChina.list": {
+      "sha256": "f0584136aaf48e3d483b059c6009b4095310e0d1ba61125705117d33d8742eb4",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\BanEasyListChina.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/BanEasyPrivacy.list": {
+      "sha256": "48540993bc92eb1ccba3cdaa02146d3b7796b2f8eb9cd59c822f5a62f6c28859",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\BanEasyPrivacy.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/BanProgramAD.list": {
+      "sha256": "b58b80cbb4175614de7a89ea1880f56fd80cba886db179d80da28bb0f1e96769",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\BanProgramAD.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Bing.list": {
+      "sha256": "e5665024ce05c6fddbf99ad2a45faa20da21bf8de9fc169829b51aee0609e750",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Bing.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/ChinaCompanyIp.list": {
+      "sha256": "75b8d325c5281b8c82fa72e9d63354d002672eee0f724616bf4c7fa6c1f3cb96",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\ChinaCompanyIp.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/ChinaDomain.list": {
+      "sha256": "5b5c5d0f0ee29c7030c0b4b1ee7fcf1e13042541148d3046718b2f34449e44a3",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\ChinaDomain.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/ChinaIp.list": {
+      "sha256": "b917071438760e2f1f048221e164d1fe4fce4c6090aa6dcc7854dd91922b9de8",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\ChinaIp.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/ChinaIpV6.list": {
+      "sha256": "ce15aeba76c012a3e977eab589d5da5c520709879e426b14af46e66e09b8dbbd",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\ChinaIpV6.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/ChinaMedia.list": {
+      "sha256": "e40d5d40bdf310d85e04566c7bb21cf03abc9a4536cdbf3ed6aeec66cdb3a0fe",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\ChinaMedia.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Download.list": {
+      "sha256": "71d429105b506b28c4d4164b5db33792af8f4cbcd2eac972f06152e95f79131e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Download.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/GeneralClashConfig.yml": {
+      "sha256": "d32cc2700faf5eb845480d1bb33715b2dd0904b4a65eeba2e31a73a702246ea1",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\GeneralClashConfig.yml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/GoogleCN.list": {
+      "sha256": "d0e187c65d719983dc0a6a523e9e83f14084532575d96c9154b76b42d8eda404",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\GoogleCN.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/LocalAreaNetwork.list": {
+      "sha256": "4d241c6d586ae918cfc44f802433721e5ccfa29ac3a1170dc68660304c07b80f",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\LocalAreaNetwork.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Microsoft.list": {
+      "sha256": "9a71f0026d4d2f35a02291009bfaf46bd278f7bee250d17004df2e2d4e434f13",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Microsoft.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Netflix.list": {
+      "sha256": "10c3dc8d802513110ed29b6c1504b81b62cc5f9a299bc295163d0d917408eb27",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Netflix.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/OneDrive.list": {
+      "sha256": "63205d71837c06e48ccef84cfa362eeb971e7156816aaeccc1ba6fa37818aaa8",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\OneDrive.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Apple.yaml": {
+      "sha256": "8e4a0a50213a29fc9447d3948ba847e87f560e501e4f1783712c06846577f612",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Apple.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/BanAD.yaml": {
+      "sha256": "5262790a43a3bd367eee396456e101aa5061ca225cea61b0bc120e06567a8574",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\BanAD.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/BanEasyList.yaml": {
+      "sha256": "36303bca14c9acff03630195672140154ba278fc50087d23729bb03f3bfa127d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\BanEasyList.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/BanEasyListChina.yaml": {
+      "sha256": "0fce958e1501f1369bbfc49754255f7c9e55d09ce0fcdd36f07742b045a5f2bb",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\BanEasyListChina.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/BanEasyPrivacy.yaml": {
+      "sha256": "7cbd068a5dc7d92a60eb394b0ead05ecaa0b6d2974f82ffe577b110aed06b431",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\BanEasyPrivacy.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/BanProgramAD.yaml": {
+      "sha256": "7fc32a7c4dbbcc15a0c1d2b226c6830743eb0dc46498fcf3b277c1fa9f510655",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\BanProgramAD.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/ChinaCompanyIp.yaml": {
+      "sha256": "0d3c4a76faea3476fc938d671a67f51d5370b087c8dce19b53ddea9d7f718e2d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\ChinaCompanyIp.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/ChinaDomain.yaml": {
+      "sha256": "b4eb6e1288cc0753cd10fd7a5913f6c0b2556fc149e753b50107159bb8d960ac",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\ChinaDomain.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/ChinaIp.yaml": {
+      "sha256": "cc841617f6ffc524686a4a21e10cb8e1a2422ca243808d91d9a17eb43ce36336",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\ChinaIp.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/ChinaIpV6.yaml": {
+      "sha256": "5889b0e3da604e80ec0b148ad0e75c8dc1414d055db40e1a9cd5bec71e20d8de",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\ChinaIpV6.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/ChinaMedia.yaml": {
+      "sha256": "213167cde5f458efe891582a08083b696ff4abf1efa0598a32540b883212dfdf",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\ChinaMedia.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Download.yaml": {
+      "sha256": "50ad7bf9c0212c8895f04d221ac2d622f96c9317e5b51379e6d5b34b1153ad3a",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Download.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/LocalAreaNetwork.yaml": {
+      "sha256": "83f91ea323178f849de4e817fc0a565ddbf0d16b9552333721f064395b0e81a2",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\LocalAreaNetwork.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/MJJ.yaml": {
+      "sha256": "bc6eef915ca068b55e739b9f1a7184488645ec9f56db617c7ff8cb7ef3617d34",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\MJJ.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/ProxyGFWlist.yaml": {
+      "sha256": "8f91344c08490c69af03351c7b64ca0b3c7688c3cc28e2657681ed98b675b1ed",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\ProxyGFWlist.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/ProxyLite.yaml": {
+      "sha256": "0154a4cae397fd0d6c2ce06e2d1d602fab76e278f072cda83fb39babd8f6c7ea",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\ProxyLite.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/ProxyMedia.yaml": {
+      "sha256": "43d1287b449c461ccf44f043b624eccc343280454e71544c8d152582382146b4",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\ProxyMedia.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/AI.yaml": {
+      "sha256": "e3cbd4eb04fe7749388d082f35cdd6e775d91e40b7bbc9aeaa84f736f458e191",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\AI.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/AbemaTV.yaml": {
+      "sha256": "5235c424c1baefa2d3fc7f7076e1bb67fa30b4d1725b0db7a5750e4061e9812b",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\AbemaTV.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/AccelerateDirectSites.yaml": {
+      "sha256": "560fac70c51d4c0c4494a2e7946f0ad1c3099af1739fca6353bbb2b751965dd7",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\AccelerateDirectSites.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Adobe.yaml": {
+      "sha256": "190688bfec947536382aff864974e998bbc6eac87a6d457800e6f1de86360fee",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Adobe.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Alibaba.yaml": {
+      "sha256": "a2f058c3e1912c227c4eeb45c8b079a3197e94ac99d1428a96f549d6db171248",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Alibaba.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Amazon.yaml": {
+      "sha256": "b271a7d32ba01441655992a38d7a09ca651893c4959d34bd52fb8520f2428fd8",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Amazon.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/AmazonIp.yaml": {
+      "sha256": "4b4fd7b8b0a1283bbabf25251d754a196bce476122b7d1cd2293137e16f9a3a1",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\AmazonIp.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Apple.yaml": {
+      "sha256": "1e4d93e78319f173b9243a0319c9ca9d980ebaaa883a36a61a7391e61b4f4685",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Apple.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/AppleNews.yaml": {
+      "sha256": "c0b73b699857c91d2fce062f28da5348085a685600404e81dbc3a6f4f49640a2",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\AppleNews.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/AppleTV.yaml": {
+      "sha256": "ab7dfcfbdbf5a44c6f5a1ba83137715b512ce577ad559f89db7ca18c7df39219",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\AppleTV.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/BBCiPlayer.yaml": {
+      "sha256": "efbe73e468b765fd06b4fa2daee3fa18dd71a7c58485ed78d2a782be1fdfddc6",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\BBCiPlayer.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Bahamut.yaml": {
+      "sha256": "83c86563330f8a8dd9427b72003eb3bdf208940b823ac2d5dd1034e9f61a960a",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Bahamut.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Baidu.yaml": {
+      "sha256": "457c5ae13cd0107f605fee1a95e6086264b57e6214ac8a4ad7cff673ede6cd68",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Baidu.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Bilibili.yaml": {
+      "sha256": "aa504904909f4483d7dcf8386b80a01cd3200e4747d5ae4122ce5f9fe88f22d7",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Bilibili.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/BilibiliHMT.yaml": {
+      "sha256": "c56ff15a90056ea39097ecd19551101670164d91a8d5e3e9319a911275d5bcf6",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\BilibiliHMT.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Binance.yaml": {
+      "sha256": "bc1c6ec03b03e73059476aa4fffa7804a7c40c0a80d70b8a26b9be7517f2e049",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Binance.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Bing.yaml": {
+      "sha256": "9a2e8b166656e4691d90356175a5b8c70468140869cdfe8936577c6cb582b25f",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Bing.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Blizzard.yaml": {
+      "sha256": "27f390aad6950cd9a687ac442ff39cc6c440278a9751332bdb196f649f53f347",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Blizzard.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/ByteDance.yaml": {
+      "sha256": "bced027ac7a2acbe0d5bf597c5f58595833041a6125c59591f88a90a399b5df2",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\ByteDance.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/ChinaDNS.yaml": {
+      "sha256": "93df0bdd504fe04330aff37ab2844b9ad9270d71be858aa2be6282c6cda0cefa",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\ChinaDNS.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/ChinaNet.yaml": {
+      "sha256": "c35e0cb70f1616084c17e36b28e8ffdacead540aa52525572eb8bff42fe3b2b5",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\ChinaNet.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/ChinaOneKeyLogin.yaml": {
+      "sha256": "3745c79068a31730957641286d0bc5dc911945ead042d60820b66bc23aba7ffb",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\ChinaOneKeyLogin.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Claude.yaml": {
+      "sha256": "2ed9697302d5dc229c9993dd5c1cfb80efeb8321101bd4b98bf0a3f447c3569c",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Claude.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/ClaudeAI.yaml": {
+      "sha256": "25ccafed1ddc78575f6eec59b847d128ef14e4c6ee491c5f157df1cc7a1806c0",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\ClaudeAI.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Crypto.yaml": {
+      "sha256": "c6abd2477a633c499801cbfa277b02e80df816bca660278db0c568ba00e4a72e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Crypto.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Deezer.yaml": {
+      "sha256": "660b4444a3ba47a1e3712472e33f902a729ab28cbf5346274d35b3bf2ab3fcea",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Deezer.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Developer.yaml": {
+      "sha256": "10ad8a88b95b67e25da20eee7d6d3c4c38708816d8c81078beaac84a16475171",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Developer.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Discord.yaml": {
+      "sha256": "129d8eca2b32c7a7ecaac16e2cd962a75c7a2c558b98bb3f1bd24d3b179aa117",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Discord.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/DiscoveryPlus.yaml": {
+      "sha256": "baeafbf5967407fa451b80e232ce2846d820810a9ec81259cc4602ead09354d5",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\DiscoveryPlus.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/DisneyPlus.yaml": {
+      "sha256": "27f658ee5960d50cc463843701d8be76b14eb420ddaf513ad6bda2243bb53af1",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\DisneyPlus.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Docker.yaml": {
+      "sha256": "07905f57a519b215f9e7bae9771f06170bc600ec94e1439ff6be1af01c23a3ff",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Docker.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Douyu.yaml": {
+      "sha256": "301a0dc1b6e950f0d869a2934d3c3f39f3b57b404acb610d137947de1aed1ea8",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Douyu.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Download.yaml": {
+      "sha256": "a63585dc18844cd4a80036f33d199a914dfbb030ddef4cd314ff3a95df749f64",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Download.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Dubox.yaml": {
+      "sha256": "2548fccb3673b2a5ede2cf368a80e8676b0d8a8bb87d63263b91693ee73be48d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Dubox.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/EHGallery.yaml": {
+      "sha256": "c778e22eecd705f5fad452368ffcf72c9cc1ef5f69245a74f28ef72704dac4ea",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\EHGallery.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/EncoreTVB.yaml": {
+      "sha256": "7bfe5cddb54f6b3cd5f168d75e1cf7d27188414bc42b76cd1bd393e4a290b6be",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\EncoreTVB.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Epic.yaml": {
+      "sha256": "d94ac9726d2f816e9c95490943acc11da13f0d8f80de100f42d4cde80ff331ef",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Epic.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Facebook.yaml": {
+      "sha256": "dc3916f48e6f158840171a05ccfffd7f7e02801c9730a724647fdbcb1fce9b29",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Facebook.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/FoxNow.yaml": {
+      "sha256": "8cc6491f6bfceb5c1894712858489aa7e9b81ab2d91cd50610ff36d74dd7da45",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\FoxNow.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/GameDownload.yaml": {
+      "sha256": "d23d5c06976104e73d4542ed71bf32f6bf49416821ead9ccd517b40892229368",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\GameDownload.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Gemini.yaml": {
+      "sha256": "6d7f6d41269e8a2415757c1e5d1449ac9f16533f018c7bb54eb1e420b60638bb",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Gemini.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Github.yaml": {
+      "sha256": "18078e0b613bc8219e7a1b59570e3b511642ed68d84e3746cb11fd69e3e9fe70",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Github.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Google.yaml": {
+      "sha256": "7401394d86e67eb0344d49986ce4b3a4123fdfe159e1f044a101e57754e312f9",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Google.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/GoogleCN.yaml": {
+      "sha256": "44922e483cae567fbaec3ac111b2c4cc673be51cb6b3b179761eb001f76a931a",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\GoogleCN.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/GoogleCNProxyIP.yaml": {
+      "sha256": "75e92f7c0cb37cc26b984ef3719d52f8481492902dd5821fd3aeef681598e2fb",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\GoogleCNProxyIP.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/GoogleEarth.yaml": {
+      "sha256": "24153264606bfcbbebbcfdefa187228c22b5d9ab258da214772d25779b30d09d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\GoogleEarth.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/GoogleFCM.yaml": {
+      "sha256": "88b959b79d051e7cfd8879da7048b5a483f1103e4b4b5019a774babee3ccc664",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\GoogleFCM.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/HBO.yaml": {
+      "sha256": "93a21741bedf4ea6afca4036be0f371e16e29f57009cd0346b88d87030b71ea1",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\HBO.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/HBO_GO_HKG.yaml": {
+      "sha256": "5c434c1398534ba9cbab25d5a04c300e51ad79fd3ad34693fecfdb1411c306e2",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\HBO_GO_HKG.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Heytap.yaml": {
+      "sha256": "96add80a9c0cb148e7bd5d5d44975c38c6c50cba8d9783235b34a0c17cecd47e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Heytap.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/HuaWei.yaml": {
+      "sha256": "a6110c93fc40b1c1ef9d77d29cecaa732f16baa96c6892f5b138368b686c506f",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\HuaWei.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/HuluJapan.yaml": {
+      "sha256": "22949c1a19afa1ccb6f5d31388964dd0f8e5cb06aee6b3bd5dc9ada41b99b4be",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\HuluJapan.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Iflytek.yaml": {
+      "sha256": "07a146eeaec9b16e39ae3d79975ce76c973c946242f12f4bf577666e7255fb72",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Iflytek.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Instagram.yaml": {
+      "sha256": "0ca913449abad78f84c74c5c41ca848ff3112df3b5aaf96f120756b92e897ade",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Instagram.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Iqiyi.yaml": {
+      "sha256": "98c7bcdc292dae86c5e6d63889aefcb0caa5a6159aae4146471267571f94baf7",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Iqiyi.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/IqiyiHMT.yaml": {
+      "sha256": "9846a9d8abbdc9beb1f77c3d62422c056ec7702fb79a00077fbc2ef7eb1166af",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\IqiyiHMT.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Iwara.yaml": {
+      "sha256": "2d9fc688ae79a6de2459e717c6d39ef70b8ce650f853d4f6b32ddfc2241cd503",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Iwara.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Japonx.yaml": {
+      "sha256": "08f82d7898db571fb2cbac4e7eaa3d4b21562871da8707a375a4123f50696285",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Japonx.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/JetBrains.yaml": {
+      "sha256": "a009c616fee01fa48b18d773da8ee80948b7db5115d8bea2d7b9f78ea4774fe1",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\JetBrains.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/KKBOX.yaml": {
+      "sha256": "f083c39a997be74d08396e0f01dcb1ee7f57da170972bdc8629b37bcdc93a313",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\KKBOX.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/KakaoTalk.yaml": {
+      "sha256": "e3deebb0f3de5b0ee6f86b65f9080412b2436c9df1b9a35463ce92e915f14311",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\KakaoTalk.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Kingsoft.yaml": {
+      "sha256": "a927674005cd1b7eacaf1926ae0645c1f9c3644a3c265f4667e2f240ca4dc05c",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Kingsoft.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Kuaishou.yaml": {
+      "sha256": "ca5c023bd98cb01c38af46f7792aa6297aca9a19fd7d30f9e4590c869a78cb29",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Kuaishou.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/LineTV.yaml": {
+      "sha256": "10cd6fce92595a2d8eaa1dd6a84abcf62d25c65e0f88aa0072ec2879f7ce60b5",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\LineTV.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/MGTVTV.yaml": {
+      "sha256": "3128fdcd861bc0a0a35c8c68bdf7fdaa9a2b4294f758a1976c2e0eac124658d8",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\MGTVTV.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/MIUIPrivacy.yaml": {
+      "sha256": "4caef8ad89ad13db332874ec4e5b6af44f5271715ae406c7f7ef3146c9f7cfd9",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\MIUIPrivacy.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Marketing.yaml": {
+      "sha256": "c2217ea47f730f11a5aa5cfcbcd2a600a8af3b908b6983caefb1c13ce1c1ec0d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Marketing.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Meitu.yaml": {
+      "sha256": "be4148a7c108ea403f5272a19c32d495ec9e2a50363503a4060103c98063c3ea",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Meitu.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Microsoft.yaml": {
+      "sha256": "c28fbfa2a7be19c2758f31acad41e7c92568efa40a5cd0278327919b6737d752",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Microsoft.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/MyTVSuper.yaml": {
+      "sha256": "6ff37a7f82ab85d947e84ce8858c5b21167c3c93f735cfe63c37fce8f1317576",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\MyTVSuper.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/NaSDDNS.yaml": {
+      "sha256": "c74ac9e6b9a67ead8f51b24baf918bfbbf030472c7e940d74e7b48c596c2b4c2",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\NaSDDNS.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/NetEase.yaml": {
+      "sha256": "f672a1a127c7c9af4ba3b6f53e432295254582cb105aa03c0326c4b548e4faed",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\NetEase.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/NetEaseMusic.yaml": {
+      "sha256": "6e72489bd4722de3b4053ac2d6305d40b021a8ff63e440d8b5387098956f2ed1",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\NetEaseMusic.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Netflix.yaml": {
+      "sha256": "3506c0c6d0d99ef6d93dd175d8d160ae22401073f1db32b7c239b8ed00124106",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Netflix.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/NetflixIP.yaml": {
+      "sha256": "4086d3ea2d42d5598bbdc7aabc9c487b40289ec6c9a90033d666880ba53bb5f5",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\NetflixIP.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Niconico.yaml": {
+      "sha256": "0d1477b6167ac94b2e92626c33b142bab90bdcfafbecbfe010b982a377bf6711",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Niconico.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Nintendo.yaml": {
+      "sha256": "c6cc73b74248d2eca56da64e2b6ad8b5b0ca20458abcc4cf1700ad626d5340a8",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Nintendo.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/NivodTV.yaml": {
+      "sha256": "f50d6a3f0fa881732d0c55fc8d30b7677f9c9fef204799ce40a0362c122b568e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\NivodTV.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Olevod.yaml": {
+      "sha256": "d12e61dadcb120ba58fc219c7fd742745220c769cb661d92d383f70f94089ed1",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Olevod.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/OneDrive.yaml": {
+      "sha256": "4923240c6a256b6091fa14cc05e6c40f5336d36ce0661fbe35763ce2d8530f8b",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\OneDrive.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/OpenAi.yaml": {
+      "sha256": "ca9e7549708816547fc01136e823c04eaa1d5692da9dbfd2f21ccd68902e45c9",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\OpenAi.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Origin.yaml": {
+      "sha256": "3e387a3ccf39e8e84ef234d01361792c1b3cc759c59dd1beb68c6098ddee71e4",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Origin.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/PPTVPPLive.yaml": {
+      "sha256": "571b1112be013054cc8496028a80113ae425210686731f8b26f56d6ce2eb91b8",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\PPTVPPLive.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Pandora.yaml": {
+      "sha256": "1a39a8cef74432ad350bda100436134a40ef00e5a88ee324b96aa592ddba4f69",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Pandora.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Pixiv.yaml": {
+      "sha256": "3a2304325fb8ec81d4127702d401eb64fd793f82c6944c2fcdccb924caa528ef",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Pixiv.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Porn.yaml": {
+      "sha256": "a5d6f089b014854d35b61c9fbc1162ce6fd7ca8c9d2ab207ae1efac3928fbb92",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Porn.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/PornAsia.yaml": {
+      "sha256": "c952fbc281aeedfe4fc428f329cfabf90603a7ad5381dc25e084b07f2af19ea3",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\PornAsia.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Pornhub.yaml": {
+      "sha256": "bb562e7e3f4802dd33a159aee4ad6fa858dd7e1d62fd5e02a4113ac1f6d7f3fc",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Pornhub.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/PrivateTracker.yaml": {
+      "sha256": "b363f1cbbd3c44d9271a3fee0ac172f5a088c31977b5de93fa7db44083ffc345",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\PrivateTracker.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/PublicDirectCDN.yaml": {
+      "sha256": "7da2b526649d14c29ed7d5f24ef51147edf9bd3073d802c80e8829970043ba5a",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\PublicDirectCDN.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Qobuz.yaml": {
+      "sha256": "19d18373b68e67bac54b26011d14269bebaf3cb9896bcd0e4a4ce1198d6dbb57",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Qobuz.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Reddit.yaml": {
+      "sha256": "a6e6a94029466431c635e737d3246df87c774aeab5372baf55c3c25102a9b3a4",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Reddit.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/RemoteDesktop.yaml": {
+      "sha256": "e8d5316400906da1a92ecd84207ce5e9cfa85455f147c9d7d8fe03b479c2b914",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\RemoteDesktop.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Samsung.yaml": {
+      "sha256": "f3a63500895458559ee8628861750ffcdc6f2853de541752cd33af43a28a76c3",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Samsung.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Scholar.yaml": {
+      "sha256": "c18c1855f8f1e84dc1688c358f7639bf42ac1df4a0760fb6eda4b9755c361830",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Scholar.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/SohuSogo.yaml": {
+      "sha256": "5062a7d09b7baac4a401a3ab68c1f22ed59bf7fb068824613fea276b97a42123",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\SohuSogo.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Sony.yaml": {
+      "sha256": "d05bfc680c8e15f97fd5d75af786522f53ed58a6471ac5db100115a3c34baccf",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Sony.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/SoundCloud.yaml": {
+      "sha256": "35262de4f280807ff3862fe8195aae6837fb14eef61e109222000633d4c7fa08",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\SoundCloud.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Spark.yaml": {
+      "sha256": "ab83a8531e36a2711af53a31a57a4e01bf1b62d72e4ecb238accac7c23b37134",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Spark.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Spotify.yaml": {
+      "sha256": "efe82fd2d334b49cd49045a8d8c99b19572ac97c25791720e6b0d812a28aedd0",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Spotify.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Steam.yaml": {
+      "sha256": "e4355520ddeeafb4d527289558b01f5538aa6f6cdde61b985b63e4afa6d36201",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Steam.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/SteamCN.yaml": {
+      "sha256": "4b9423be2dba73e684576cd71f474c77cca80e7c62fbd1a9bcd68449842c7666",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\SteamCN.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/SteamRegionCheck.yaml": {
+      "sha256": "d9906321d83fdc5a11a399c90507cad83c0ac0c81dad6de7b7253547815daf1e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\SteamRegionCheck.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/TIDAL.yaml": {
+      "sha256": "087762817b987e6c7b0e54da6fefb1610f6c096b681c06abec9a0c062b3d3e44",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\TIDAL.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/TaiWanGood.yaml": {
+      "sha256": "462d1f31fdaee0d1f18e69c2deab81ef4e802c8654d239704a633847b0aaf97b",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\TaiWanGood.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/TapTap.yaml": {
+      "sha256": "fba5438f7e0aba7f5fdfbc3cca95f7321b35a3a811d5f67634d02b95372d32c1",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\TapTap.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/TeamViewer.yaml": {
+      "sha256": "8fe2baee8a23e590b1c6cec8b6e5fc330ae00cc6d33509a4bf22db99f2e2354c",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\TeamViewer.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Telegram.yaml": {
+      "sha256": "c3a6d075b85739c4d4b2f05d2b389401f6ed457967b28926e1f6677528f8c46e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Telegram.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Tencent.yaml": {
+      "sha256": "05f01001abe4c954e86f78ca155a7f4bca0dd4b8897b0fc031b76c55f4aa165f",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Tencent.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/TencentLolm.yaml": {
+      "sha256": "b6c433783c7c450af4ad1e73921f61d72bf481316738c998e09ef5014415d095",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\TencentLolm.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/TencentVideo.yaml": {
+      "sha256": "bf26bfdda864f3d5d99bc43d40119191ce9c88604a48a3f4830a58db8bd41838",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\TencentVideo.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/TeraBox.yaml": {
+      "sha256": "c4131c604a92b4dc96f5e05f926cd4364699c1d9fbee73302230abfe9d630701",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\TeraBox.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/TikTok.yaml": {
+      "sha256": "7d5177db96d89f30d062dabcd7dc04f4abf94c9d273b94216f1116e7b5df4c19",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\TikTok.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/TopBlockedSites.yaml": {
+      "sha256": "d24ede989397edba5d7ed7191b59a363e161c5c052a8e4e80ce55b3db0a3280a",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\TopBlockedSites.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Twitch.yaml": {
+      "sha256": "bfcf093a3516056b46b62a5e766af2944f9b0067fe88fa7f906cff19652e75d7",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Twitch.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Twitter.yaml": {
+      "sha256": "1579ceff16ca781d24a15a7ade25f832e484bf441d46908cc48c3d201fd70333",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Twitter.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/VikACG.yaml": {
+      "sha256": "3ddc4406e1f2187e9c7fe153d109a0226d63d02527b9f34af28b473b2e9d6ae9",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\VikACG.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/ViuTV.yaml": {
+      "sha256": "572976e3c948cd18acd6f723cf79e85c5eb358fd1643cf4c735dc2ddd6208aef",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\ViuTV.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Wechat.yaml": {
+      "sha256": "94b539141ec59c4fa9f5a07bbf5cb8e18b69f4319f2d90e17ff1e4e6016ddc2c",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Wechat.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Whatsapp.yaml": {
+      "sha256": "2e6522c15eeb252494d9a1b1f5b8781c53ef84a949307b383cbd064eb384e552",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Whatsapp.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Wikipedia.yaml": {
+      "sha256": "7ed09614c16d98cea097aa1ef1b5dae2e010b44f50a7a9dc1aef1e62ed3e1c79",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Wikipedia.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Xbox.yaml": {
+      "sha256": "6976382e4c9ba5fa212aedd5f19fd186fa8639288ffd5db2ab71d00c86c28d7e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Xbox.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Ximalaya.yaml": {
+      "sha256": "cf1742fab2bcd0a9c3375b3f88cf45b1ed1351efd3a52cf94af44874642463a0",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Ximalaya.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Xunlei.yaml": {
+      "sha256": "456a0c59192661f9a91815870b73bac0f6b2a3de67ce746cf9355ee07c71a73f",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Xunlei.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/YYeTs.yaml": {
+      "sha256": "e5a46d8862434bce93e040896aa49f23b4c943b649618f9b241d0b9ab00abd62",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\YYeTs.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/YouTube.yaml": {
+      "sha256": "f65da20eeb0c3f70dde211a5bbcbf191f73fd36a9de86acf180ac526e633e8c1",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\YouTube.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/YouTubeMusic.yaml": {
+      "sha256": "9466b26edf5db969cceba131718c7d92e5d418ed141aab3b2d7396511795cb82",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\YouTubeMusic.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Youku.yaml": {
+      "sha256": "a6eeffc4c9a9135fd8665b09625d08de2e4f00b7782ad7c017182250ccc6bee7",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Youku.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/Ruleset/Zoom.yaml": {
+      "sha256": "2b940837e77fcbaa2774aa44a0092958116e4e432b8262b249b5bd0bf1b1b064",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\Ruleset\\Zoom.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Providers/UnBan.yaml": {
+      "sha256": "3e238b15b797e50ed102e9abaa303f99240439c6679627830fd38719f09485de",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Providers\\UnBan.yaml"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/ProxyGFWlist.list": {
+      "sha256": "f5e0f60960fed2ba3f608aa9d2d2dd8e3e9cc1ffd64c6a5235dd87526059b6fb",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\ProxyGFWlist.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/ProxyLite.list": {
+      "sha256": "6eb461c46fd9fffa76cfa37fe3f9455f26804865c868469c925dae431ff11b3e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\ProxyLite.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/ProxyMedia.list": {
+      "sha256": "dd0547722444ca1387941596d8a550715f0afbd4221392e67384b8cc84c48343",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\ProxyMedia.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/360.list": {
+      "sha256": "e4b10dae8a478dfa961546a8d5cd16cfa98c5459f6de73192e030be401c9c1a0",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\360.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/4399.list": {
+      "sha256": "b160128295c9b604d80c166c9da16c90934bdfd6a66c879dae516146366a823e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\4399.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/58.list": {
+      "sha256": "8e2d9142cc265ff39f69a6d0f86c645ca7268c66c630b84bf0623c8c71a84843",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\58.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/ABC.list": {
+      "sha256": "44f7ec0be656c0739d93902331fdd16b2d98fb9e0a4b7c778e8015bee869930b",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\ABC.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/AI.list": {
+      "sha256": "791d03664afcd419afc47f4df4f1eea6964487f31707a20c8fc0906238f20296",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\AI.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/AbemaTV.list": {
+      "sha256": "5630619002084459ceb3eae30114b86b61dfa9e79de118c43b2ab46c21f2ba14",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\AbemaTV.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/AccelerateDirectSites.list": {
+      "sha256": "294dd6d2834ec2ef816ec56f3fce9fdda5cb8d6a1e98d895ae2f445ecb9bf1d0",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\AccelerateDirectSites.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Adobe.list": {
+      "sha256": "13abfc24cf3dbe8e4e66cab0a9f4c8a66bfa437e73ca0734cc5c6c5df4f05c31",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Adobe.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Alibaba.list": {
+      "sha256": "c29de9123641dddb2c2bae029f97769032a6e4715b92c6044088f6eb6bc5af8f",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Alibaba.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/All4.list": {
+      "sha256": "8475b89c6b599eadc1c356ab19ac58709439e5fe5cde1234eb64d9b03d17ba22",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\All4.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Amazon.list": {
+      "sha256": "74424af93574634db419343aa8feb3647218f6e1f9b6ba181bd3158f46d41cf1",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Amazon.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/AmazonIp.list": {
+      "sha256": "cd35843c2664a73aaf45d512bf66c31455d69eee2ee82cf520ab26f3ce1d66cf",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\AmazonIp.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Apple.list": {
+      "sha256": "2378646b40832f4863b70adb1000791654c3a1a671344a31c863ab74fcb8c101",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Apple.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/AppleNews.list": {
+      "sha256": "d4b4cb2099964ede9b0bca650af4a112e0e6d5666711d517c71abc675b1530a5",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\AppleNews.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/AppleTV.list": {
+      "sha256": "5a5603bcf40a2d178e0ad53065e1b7dd26765407b909f3a1133bb8b0d8d033af",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\AppleTV.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/BBC.list": {
+      "sha256": "d62bbfd4aa7851f7be8b465c0486bd8658a74961cb2021b361c243ed4d212e1e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\BBC.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/BBCiPlayer.list": {
+      "sha256": "fbbd643cd50cc148492ae466db40d6d2565d28525f71c8c296fa3cc29e476904",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\BBCiPlayer.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Bahamut.list": {
+      "sha256": "760df74a7ca822fc140b5b9779109b5380394a1e5b19a7a9d95b138bc08ba77e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Bahamut.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Baidu.list": {
+      "sha256": "61ba0e431edca2324bbd6bf5fb0551334033abe3e093f27cb32aa38f8fd71b97",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Baidu.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Bilibili.list": {
+      "sha256": "3f586a4035e50e42eeb32ca680ad2e53072385443e822db6fb9d46039c437369",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Bilibili.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/BilibiliHMT.list": {
+      "sha256": "66d51c35c30e8d85d2631e8b52a269208ea2f3ce2c2c6e47016e8eb7b5da38dc",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\BilibiliHMT.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Binance.list": {
+      "sha256": "749e0d81346c651fba948c0c9e172601609418509d031a957875507bfe0e4b75",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Binance.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Bing.list": {
+      "sha256": "c4e1bbff97a0b3fa992073b45818686c85e4640eaece36b56857e06900e49899",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Bing.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Blizzard.list": {
+      "sha256": "d3a73ed179ea7b5c9fca0ba9ff3f1895182df8264820801f7bc1053be548a8ed",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Blizzard.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/ByteDance.list": {
+      "sha256": "88526cf81d52e24e4acb87ed33ab25b5d703e40a8541f5d728313ec5a0af329f",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\ByteDance.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/CCTV.list": {
+      "sha256": "ce3c1b2312dba6cb057ac0848c06b61f36cf04a1dc9f69e6669dee9d78d81f17",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\CCTV.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/CN.list": {
+      "sha256": "b74131ff6299737663b1876ac4b1619ffdb0e35c81a45c9a5619c3647da1bfc7",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\CN.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/ChinaDNS.list": {
+      "sha256": "b400cca2e1c4f53d520c1faf6c6dd708ca6af82c12cefd133dee946bf8920892",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\ChinaDNS.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/ChinaNet.list": {
+      "sha256": "cf2724765b06b865aa48c5bfdaf74be5507b4e0f39eef53457dd4fd4f1993d64",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\ChinaNet.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/ChinaOneKeyLogin.list": {
+      "sha256": "c662bb303d5ce87d8f214dd1eb697f398989e22fcac8bd89341d392cfe510cc1",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\ChinaOneKeyLogin.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Claude.list": {
+      "sha256": "2baba9782fa10cfb2dd84f37219e71d21e89566ce75286328afeb5fea7811116",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Claude.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/ClaudeAI.list": {
+      "sha256": "660094ffc411da38cf7ed472b67205103307766c8159ceabc97314df92aef4b3",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\ClaudeAI.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Crypto.list": {
+      "sha256": "c2d91de7270642af82c416cdd5ba439dc9cbc4d4dd9bff20633ecd6213445741",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Crypto.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/DAZN.list": {
+      "sha256": "3b67accb1e336becf8bb7fd003a88e29681543d38b5472afc5db4aee432b1840",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\DAZN.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Deezer.list": {
+      "sha256": "b4ae57f95d64434335f39244d06688f315aa965fe64ea602196e1c1580fea816",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Deezer.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Developer.list": {
+      "sha256": "a54acc054a49d5e9a6ac32ec56f18c1034d67a99a8a3cdb595f650c506673133",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Developer.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/DiDi.list": {
+      "sha256": "7a9d466ae4ec8c26f183088f7cf84402ec0b7150b1eba4bfb2ad51c7425b7b2b",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\DiDi.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Discord.list": {
+      "sha256": "da3ffa55916fa67f1b0a29b0f65eecdf585037128b999dfee41024d4f2d004a4",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Discord.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/DiscoveryPlus.list": {
+      "sha256": "52504b47ce0b69184acfb5173ef777b70091ee8e2ae748458733c222b4cdd2b7",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\DiscoveryPlus.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/DisneyPlus.list": {
+      "sha256": "e4723aa0550315e588af20edbc3850a6cda75e2c9992114a148c721b0aefd3a2",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\DisneyPlus.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Dmm.list": {
+      "sha256": "1c4c2c0d5a86b53128c794541a352ff3e8f446ef96efd4e34314ece69433287c",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Dmm.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Docker.list": {
+      "sha256": "888e6f997c6b58492ef33c35f887092e8db6ac069497267de1ca10c47dfcab2a",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Docker.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Douyu.list": {
+      "sha256": "64085db4eae2f5b03d9fc658cb1c28e25d06add26696b81b8ba03f51db4d016a",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Douyu.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Download.list": {
+      "sha256": "2b794662c69589372848eb3334f46352509338c2cd945abb45dd18778febf56b",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Download.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Dubox.list": {
+      "sha256": "b9155f302d868f3708b31ed0085b5f1d77d53eb8e279c885b418b6347462fd3e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Dubox.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/EHGallery.list": {
+      "sha256": "72212a9e26cb513c29f06df242e4ae7aa2cf113f84059fdb32df6fdc10cdf276",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\EHGallery.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/EncoreTVB.list": {
+      "sha256": "64b3571f202d87e7fb63a3379f993c9a690da726928423605a53800eed9c5ce9",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\EncoreTVB.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Epic.list": {
+      "sha256": "3446680a5a0a27680c5bcaeb528e473c7934e9096da3d556d5383939078a9f46",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Epic.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/F1.list": {
+      "sha256": "a497f701b8c6dd70f5c8cb5c94a123c777348143e7659905c6c9dc334e0b38bb",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\F1.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Facebook.list": {
+      "sha256": "a6258fcb152dd6f8a36ac88788ee31db26e4c03406c8090efce3c43ace8157cb",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Facebook.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/FoxNow.list": {
+      "sha256": "4dc0299d1ad1bc9a932fe2871a293c888013fa64c4aba9448587285a9641b0ab",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\FoxNow.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/GameDownload.list": {
+      "sha256": "60babc26d6c5055a769b9eb810047cc2eca3c57060bca71a27b74e580947bbd7",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\GameDownload.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Gemini.list": {
+      "sha256": "3ead88e344e6d767d7cfa598d37f1bc577d839e1d44689c7e330f7c1f323cf33",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Gemini.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Github.list": {
+      "sha256": "663df3f1a3b47059ba28f1ebe4cfcf3587894e6b12ad7497d4d8ce1b37c425c7",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Github.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Google.list": {
+      "sha256": "a91974e0920ed0041804725a3260c35805e118fb3c60a2b6ae4b5b37b81d89ae",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Google.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/GoogleCN.list": {
+      "sha256": "7a35f86d0e4d706568e165f01753319133b11f6e2d3f6df99fa5ffbc9adf4459",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\GoogleCN.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/GoogleCNProxyIP.list": {
+      "sha256": "03e102ecfa697382e33f8d3a0156a2cc58624a814ab99f67e98063c7581c0636",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\GoogleCNProxyIP.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/GoogleEarth.list": {
+      "sha256": "dc342595ae2adb0548c41abfc35b4227ac9c150099af28aa607efd864e978ff6",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\GoogleEarth.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/GoogleFCM.list": {
+      "sha256": "ce8c237de2313a33ec63b50974a599eddd8f3fa8d684539b50ae6d5e305d1560",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\GoogleFCM.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/HBO.list": {
+      "sha256": "6cfafd86ab9d7315e589e765092ab4677a8e2d478e2c1994d8609bf42480b12f",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\HBO.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/HBO_GO_HKG.list": {
+      "sha256": "14baaf8751dd01d07ba5955bde309479fae0435777f54ab42b0dfa2ccbedd97d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\HBO_GO_HKG.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/HWTV.list": {
+      "sha256": "c07b3a647af8bbca9d329ae529da2d30f689ba6ac177147a678f0d5aa02910b1",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\HWTV.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Heytap.list": {
+      "sha256": "f4e5070b7d945c8f4420d0383e1fd0b5bce40a642f0b109ff5ef1328a604c8b1",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Heytap.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/HuaWei.list": {
+      "sha256": "26c537eaca42fac8f104c98788140ab11c1fe97aea5ebe12cc20fcc725e72d35",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\HuaWei.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Hulu.list": {
+      "sha256": "84ad49adee3b381d290bd98edd9f9c6bb6c61776db47840dc6d37632fcd0cc89",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Hulu.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/HuluJapan.list": {
+      "sha256": "3ff0a9f19704e9692950ea28b7ef8a9641aab2dfb66fb65adc16f393e93ca73b",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\HuluJapan.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/ITV.list": {
+      "sha256": "d503f783e919ba03c77432a1938c8fba23e2b744440af4433f6593eaaaf2231a",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\ITV.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Iflytek.list": {
+      "sha256": "034329eca84fc4fc892fcd021ebb0a2da3d9061e2e062491e8f2d3ec193d25cb",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Iflytek.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Instagram.list": {
+      "sha256": "6ef2fe9d2b01793129c3e88292cb43a67b6219864c2b94b8bf3e30e439dbee2d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Instagram.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Iqiyi.list": {
+      "sha256": "97338ae7e592c3258a73746d4ce490847365db3292c4ab3f0b3ad19c8004a38d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Iqiyi.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/IqiyiHMT.list": {
+      "sha256": "9c54bf4f904e7ca1f389a964be996ee1583c20b9449b4da642989678403d216c",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\IqiyiHMT.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Iwara.list": {
+      "sha256": "33fe7c6ce293287b691e89f419285fdae606d50caa37ea999c5d5936d7e26fab",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Iwara.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/JD.list": {
+      "sha256": "fcf898ec478049b293c58aee2471eac6f05bd0afe9a612ad1e716fa0d4069f6b",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\JD.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/JOOX.list": {
+      "sha256": "28b9a558b60428a87d8f316f1a44eae5bb115cd381c76ba1570a5aae1b537a6b",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\JOOX.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Japonx.list": {
+      "sha256": "6ac69c357fb5c27afd008cac8aa19b59ea787e96bd1fcae7ad6df21bba6f90dd",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Japonx.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/JetBrains.list": {
+      "sha256": "a2889c046160698eb53c626b580f07a251ed764013a4d679d732c9c07a831324",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\JetBrains.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/KKBOX.list": {
+      "sha256": "eda8b82dc4eb240eab69715258a009027d789ef21a4d27fe3a0108f30c49eb76",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\KKBOX.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/KKTV.list": {
+      "sha256": "43f8f2e51dfb6addf963ec67accb182af2aeb47e90707c558be24bc4cd2aa91a",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\KKTV.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/KakaoTalk.list": {
+      "sha256": "c7ed8f3bc9b4c2c8035df36f528120f51af7f9091f7890cb6d1ed344e2932513",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\KakaoTalk.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Kingsoft.list": {
+      "sha256": "4f522204de86678cbe9d970ec1e84ad04d5e0df96ed640bb152101bcde0edb96",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Kingsoft.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Kuaishou.list": {
+      "sha256": "263160bab9695f9d99c70b128ef30584bcd003d3df7d1f5aad1d31716cd5bbcd",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Kuaishou.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/LeTV.list": {
+      "sha256": "5682d66fdcf550b115465e7b13eaef0242e93ef7c2624fbcae624a2105a538c2",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\LeTV.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/LiTV.list": {
+      "sha256": "590617ab4acd10ed8226d85d7ebeb341972ae460e9530c1ccfc8a2f68b8c2c37",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\LiTV.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Line.list": {
+      "sha256": "75f5da6788433bc3d08b26277cdfd4782b3d1ab25caef9c4dbff80c0bcd4b4fd",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Line.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/LineTV.list": {
+      "sha256": "de6aac48b5b5b705010918f2e4159ef05c9acf20c59077e50102d0925f2d3d24",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\LineTV.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/MGTVTV.list": {
+      "sha256": "daa5a1f56b27c879dd7cf6239c3e240af4e0a6a2817c3cc53a91b98bd699c6a3",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\MGTVTV.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/MI.list": {
+      "sha256": "e6705a53a4284f96a1aba81c02b374ec3813963c30ec52c57046ebf69be7cb78",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\MI.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/MIUIPrivacy.list": {
+      "sha256": "fb97f3ed7552906852b59ee52324ed0ed3b8b5c95ccfd6e7337877945f71f639",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\MIUIPrivacy.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/MOO.list": {
+      "sha256": "48a03c65236d11334091808fae458a433ff7c433bec236819c46e98340d96b62",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\MOO.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Marketing.list": {
+      "sha256": "ee65ab380ceeaac786165ffc7ff664ab0dc14d701eff6c160659265dd59eb4b8",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Marketing.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Meitu.list": {
+      "sha256": "44650e9358d4d5acca7dccfa0fa427ed2d421e44ef6c3bd5333a28527d73d6f9",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Meitu.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Microsoft.list": {
+      "sha256": "71475338e80b7c69045fcded2eaa00dbb4f0c76b0c9c07d02c6de8fa5988d3e7",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Microsoft.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/My5.list": {
+      "sha256": "e9044337aead0740879753aaa4dcb0ec8ccfc1e37bc16a04ae364053acbe93d5",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\My5.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/MyTVSuper.list": {
+      "sha256": "a631477831da8346b7bb45b6bc5f6267591d097fba016dfead7bb55e4a836e90",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\MyTVSuper.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/NaSDDNS.list": {
+      "sha256": "42b20e1753e8a0bf0e4273bea3a2f36033d92c46b8e36999626cd983e70b526d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\NaSDDNS.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/NetEase.list": {
+      "sha256": "1e30e6c64ddd16d236a59d773e823524ed0c51787182b3bfdd1a07b28f7331e9",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\NetEase.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/NetEaseMusic.list": {
+      "sha256": "1f5f9756d37002743a1e17a8d84cec907a0d693feb4505eaa3bf5fa63b2d01a5",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\NetEaseMusic.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Netflix.list": {
+      "sha256": "86415f0eb38bb3a751988e690aadb97b53557a796c0f701bdaa2dd78ec178fd2",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Netflix.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/NetflixIP.list": {
+      "sha256": "6a2ef2edadb90fd4f78a84bc2150c01bcf5adb72d371f782bd291736ab3c693c",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\NetflixIP.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Niconico.list": {
+      "sha256": "1bda1145a33740625a7d84e8185f647ce7f193d6dc3ca71448d5568826f7b1c7",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Niconico.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Nintendo.list": {
+      "sha256": "802127977f786e320baed131e3dd4b9106f5d8adfbb9f590e45e62534fa68eb5",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Nintendo.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/NivodTV.list": {
+      "sha256": "e5449840423a6cc96acedd442bf7c356854259cc273282ad575de1065e4cdcc8",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\NivodTV.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Olevod.list": {
+      "sha256": "dfb597bdd17cab80280816cfca616f83623e93c4960775d2cfed467ebac04b4c",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Olevod.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/OneDrive.list": {
+      "sha256": "deb2765268405b11a721b3e12c0cd40b13826dc8edbdadb374f96e78e0f964d6",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\OneDrive.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/OpenAi.list": {
+      "sha256": "bedc76d627239bb20613d89e1f284aa0fa8264d59351422b0bba5cda3b2e7752",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\OpenAi.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Origin.list": {
+      "sha256": "67f7013816c173951aef2ee16c736b9ead356c6217dd1865f1473a1994b812c2",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Origin.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/PBS.list": {
+      "sha256": "285bf9fbb1a0fdc21918f20e46118f52bbab7bf618641bb960c3b3a2228938c6",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\PBS.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/PDD.list": {
+      "sha256": "3856ae6bea814a9a4f0c5b7bef849f5c0f93ab7bea120e8738589fb60d23bdd4",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\PDD.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/PPTVPPLive.list": {
+      "sha256": "dd77f82f923035393b2e40c9670e7e956a8d80c9e62c8eef7be32e89dc5ddad5",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\PPTVPPLive.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Pandora.list": {
+      "sha256": "6521def226f6bd7a1287063dea1d54ee79fd8c1b1d3a33174e08f5cb36a87ad4",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Pandora.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Pixiv.list": {
+      "sha256": "5f725c9106f7fb0d4c424d109cda6909bae562ae853c60d198142db2f8821c5d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Pixiv.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Porn.list": {
+      "sha256": "eda1eb4795a214c78d04be83c7e2372daab73ece570e80a3edca75a473e9dc07",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Porn.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Pornhub.list": {
+      "sha256": "05601ab23591a6c94b1adf093b5e633e687266ed83fa53ef3722926523d53ff3",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Pornhub.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/PrivateTracker.list": {
+      "sha256": "b3ba76195ade610ca038f4c3f87fbf7fea6449adbaef4afdfe2b82e6b32d967d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\PrivateTracker.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/ProxyGFWlist.list": {
+      "sha256": "9ae3c5ef9d155f71e88a2a3983c64202f320126327f0e46a090c027e74a0fcfb",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\ProxyGFWlist.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/PublicDirectCDN.list": {
+      "sha256": "fe27bcf2120f31f1d16814bbc84ce58e0082b411b35de9d5c51c1dea7da9066a",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\PublicDirectCDN.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Qobuz.list": {
+      "sha256": "e0b325013e7098039fe971bbfe9b1d16b2ec5ce59269aaab8f34631ea2039a75",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Qobuz.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Reddit.list": {
+      "sha256": "a6aca4d435518c98b3fe2da214d25f9d501cdc8c09106f1a6f42a7c5fdf1a0cc",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Reddit.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/RemoteDesktop.list": {
+      "sha256": "3dd552c224e93aa16c1c4e95f524b2a0daf311374567a0771670764c4eafa3e3",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\RemoteDesktop.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Samsung.list": {
+      "sha256": "ff44fdd0ffcc84cc0e97f06b1faa33e3f8a0df88a71774016637e4db954b5c89",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Samsung.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Scholar.list": {
+      "sha256": "ac6c13c43249831055e0376b077f5996e0623ad9a9f4f27b530167f20bb56a0a",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Scholar.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Sina.list": {
+      "sha256": "ee30286a98183b2ab51c217056a54155674f15ac65463e1f145dbd891104864e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Sina.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/SohuSogo.list": {
+      "sha256": "5b74f399b248acc11b2c70be73c0b6e142ff1f0245c32e00b3ddfecbef5d0ade",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\SohuSogo.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Sony.list": {
+      "sha256": "5ee71a4c087c637468d6f165c848b921523b44a3860598e0ca4d9e3f26e606a1",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Sony.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/SoundCloud.list": {
+      "sha256": "6ade5136369cab27f25e17f5e03a7a6894e30dce2c0f3cf311be4319f4e7b813",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\SoundCloud.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Spark.list": {
+      "sha256": "69527f61b849b4222772e32957c103a2ae7c82d89999736580552ff54718cc6f",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Spark.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Spotify.list": {
+      "sha256": "c61dccf504db1c757ec6cced5ac3048ff0acb85be4b7a74be2a14d7180f61f0e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Spotify.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Steam.list": {
+      "sha256": "484e7472cc08cdcc221cbd6ed368d68da5ba0f5dcc2ea5773c62de0ac6ff58c0",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Steam.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/SteamCN.list": {
+      "sha256": "b5e6e00645bc02ace5b9d95f885c5f0133d829c0eb78d27782a99d00c951ec60",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\SteamCN.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/SteamRegionCheck.list": {
+      "sha256": "d68168f20ff490ae1ab17765d317dc09c29b6e7406f957c55fbe4dd773e729b9",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\SteamRegionCheck.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/TIDAL.list": {
+      "sha256": "00b0028b5f4a70111fec991dc37d538a9de22bc18f0cc5d9a63670801fd47e92",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\TIDAL.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/TaiWanGood.list": {
+      "sha256": "fc98c4af7b2aee382b33117d84fdb75925e1237159217d63d6b628c8b01600e3",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\TaiWanGood.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/TapTap.list": {
+      "sha256": "cc6cf6e0395768e8b64d463fe79bae07af76236b83dec54f7d46d689373e2c96",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\TapTap.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/TeamViewer.list": {
+      "sha256": "86bb1b04f64446af1df938aba1f0bd8236bcb75f28671440d2c5577bdbc61061",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\TeamViewer.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Telegram.list": {
+      "sha256": "938dd4ed33f65ffd835e53aaa957059fe572ac28eb7c8144a9d45d9fe797fc6b",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Telegram.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Tencent.list": {
+      "sha256": "28d0d2979f2f17e7fe2688f57f1f30cc9612370d3f7e05566625972b548696af",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Tencent.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/TencentLolm.list": {
+      "sha256": "4de9f31d27656881b84a0e1fa154b093cf95077da1ef150cbef948aa9fd8ae07",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\TencentLolm.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/TencentVideo.list": {
+      "sha256": "09b201e41281d89cb5629958bbbba1e68dd11fce3534426571a1d3aed8b46108",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\TencentVideo.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/TeraBox.list": {
+      "sha256": "48e3e08ca9baabcad65fed2addb7b3b83d53c8186946e10bbaee34c131103343",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\TeraBox.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/TikTok.list": {
+      "sha256": "2da5b1b29f779d23989d0a83cd37a10bc48fac889049be08ff670f71119ff573",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\TikTok.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Topblockedsites.list": {
+      "sha256": "7f290d15e22a480f01410e2cdcd81750533702d164093f10bc4879cabad5575b",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Topblockedsites.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Twitch.list": {
+      "sha256": "68d5d8ba1976f41b9e81911e9dcc34dee831f45b5979c4f84c6898ef49278c3e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Twitch.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Twitter.list": {
+      "sha256": "c6f91c6ec9d2e5d20a13282f5c728fd71870420b27384dd378b2a5793ff7f3bc",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Twitter.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/UnBan.list": {
+      "sha256": "a3619878ec62eee7d0f7d2f1a5028fda4285c1295da1adbe40b3f35d06c3f733",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\UnBan.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/VikACG.list": {
+      "sha256": "b0ae773c5a3ef1f3adcfb51ee8292e2c05031811998eef5ecb1fe44264c044d9",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\VikACG.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Vip.list": {
+      "sha256": "4d6a2a6499493ac36cc23980eac819fa4e6f395832bf70a031fe20bc06d61d07",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Vip.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/ViuTV.list": {
+      "sha256": "01eae52452255a5cff2f0b7ec2325df78c18c2370612774265345ffb68b275d3",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\ViuTV.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Wechat.list": {
+      "sha256": "a7e5b9e38da8a5cf648216da6e8e34f711d3bbe48fee2d8cfdc6e609ce58796d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Wechat.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Whatsapp.list": {
+      "sha256": "9268ffdea4b86bf6552802ad9c76b00d613e45ddf7ab0ff8c24e6e8122624cb0",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Whatsapp.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Wikipedia.list": {
+      "sha256": "bc068216bc8452f34fb57d3cf56570c548562f878e0d340eab065cf0cb2eb49f",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Wikipedia.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Xbox.list": {
+      "sha256": "1cac99ae400f6ee1821fc93596130fcf68d070d65e83650a28828f4bfc9bec74",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Xbox.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Ximalaya.list": {
+      "sha256": "766f3794d3b5c7fbc27ffdf7d9b7498189c637558de977bee41e0526e766e909",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Ximalaya.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Xunlei.list": {
+      "sha256": "cd1a4ec1effaadef5079879ff93ce9282034f77f202b9e1dacb11e3c527a953d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Xunlei.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/YYeTs.list": {
+      "sha256": "afbc6b69c23aa569b6b98b20ef423482e055c6266efdc56223ed3dc3bf7b4272",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\YYeTs.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/YouTube.list": {
+      "sha256": "fd6839859815d1149db8c1e99e952ae4b5627b531bb9493f04bdcb8d38bf3354",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\YouTube.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/YouTubeMusic.list": {
+      "sha256": "6c8d38adb41e7206ca58f25b8b9afb18debe7b8b745489c86d7d5ee8e1f61eec",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\YouTubeMusic.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Youku.list": {
+      "sha256": "1aea7a407ab6e6419d2cce2360af2bbf59c1670a40005cfbe8b0b756c9f8ee52",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Youku.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Ruleset/Zoom.list": {
+      "sha256": "79031988fe1489c1d5f326a87b6b2513d79031389901167272051e7034c94a10",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Ruleset\\Zoom.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Telegram.list": {
+      "sha256": "f1c15ccf51bad9dc1f5bc890e488c625d5c56aa3b40eae5a7ce1f590fa9c0c5b",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Telegram.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/UnBan.list": {
+      "sha256": "b4635cad9360360d7465d90d6f83e5763e56c619a47b5e763f2a02f19bf1e8cb",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\UnBan.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/Xbox.list": {
+      "sha256": "4c0b135f128c2d019b2b0165706f6f257d67d3c57b5136da7b637a7f315ed9cd",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\Xbox.list"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR.ini": {
+      "sha256": "7fcead500215a8f87ed9456479c610b418fd75d29d18e555510342d743156c65",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_AdblockPlus.ini": {
+      "sha256": "e2dbebecf2d7d6ca4d6e6ffd6721b1b3fb5dfa1607fa0204c78d0bfdb120178e",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_AdblockPlus.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_BackCN.ini": {
+      "sha256": "8df7a2d030e2ff31513812d8b4b15ae832fc0d85a3c627633aef6c329df99430",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_BackCN.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Mini.ini": {
+      "sha256": "dc768a7cb8aff1d05299e202e9b72beec81065c344e736de86c83601b2284659",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Mini.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Mini_Fallback.ini": {
+      "sha256": "189684e34782f2c083c334db3ae3fb4132bd9b9dc7725cc2fe5ea1ce20d4704d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Mini_Fallback.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Mini_MultiMode.ini": {
+      "sha256": "f82af409dfb8303999225c189bb5e7b1b72cb5f84e7aa2cab532cc18247bc717",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Mini_MultiMode.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Mini_NoAuto.ini": {
+      "sha256": "1e9f8b56ab40064735bafb5a3b3ad21ec391d31f5b34453bf9ceff30cdd2cfd2",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Mini_NoAuto.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_NoApple.ini": {
+      "sha256": "325df8d7ce26c88345f33d9513f80f416d9727c00a8811b24cb0d8eef6f8bac3",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_NoApple.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_NoAuto.ini": {
+      "sha256": "3cf4a2cee1081b83e38d8ca9786687ef98221ae267778ba8e93232be18aa29ae",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_NoAuto.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_NoAuto_NoApple.ini": {
+      "sha256": "bd9d661d92cc28c3e0d199c0d38b8d2fc43a6834b00a4db5eba4a2fd82892030",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_NoAuto_NoApple.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_NoAuto_NoApple_NoMicrosoft.ini": {
+      "sha256": "f880680b5a91bbb0b51f75b7d32bc061c7189c2e66e6bcc5957b55abfbc8ea1b",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_NoAuto_NoApple_NoMicrosoft.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_NoMicrosoft.ini": {
+      "sha256": "36da82d7ef79b7a99cd044c17794dd2270b42a5bfb23d0ddd5a1304aeca228c8",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_NoMicrosoft.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online.ini": {
+      "sha256": "ca30c43809bc43408c1e895130eee3093d209969f151f411b00c92d8fcde8d1c",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_AdblockPlus.ini": {
+      "sha256": "91c734523a9ec9791b07ad2391aa9439bd175c6daf8f47e82f464fda4298f836",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_AdblockPlus.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_Full.ini": {
+      "sha256": "5e88ad5f5397d62268a3aa494f5fb9f8ba749d7ba79bcd8082e8f33371a77fb8",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_Full.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_Full_AdblockPlus.ini": {
+      "sha256": "5a35e7c5e124b6041d2932d9ae219e50e1b29ad7dc76786692130570eedf2567",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_Full_AdblockPlus.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_Full_Google.ini": {
+      "sha256": "504abe0f6bf0d95aae7ad8ebf8d51ecc48a1eeea5159ed48ab56c3c99961f459",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_Full_Google.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_Full_MultiMode.ini": {
+      "sha256": "4b29731dd0d68b933e3756ff74e3b944482e81188ce6cd418a2c4f3dda24d623",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_Full_MultiMode.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_Full_Netflix.ini": {
+      "sha256": "01ad11c44cbd48f31f7a22a6882d3b2d4b3d31005ffe2e92aacbec0b9363349d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_Full_Netflix.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_Full_NoAuto.ini": {
+      "sha256": "85f3bce7b9e8b697d43b41fbaba584835f76f7e3fcea99db3bf87c016f67b683",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_Full_NoAuto.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_Mini.ini": {
+      "sha256": "7440ad2e6cf992f5985647d2279607c3fc6772086e011aa0da406dcd7fad39f9",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_Mini.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_Mini_AdblockPlus.ini": {
+      "sha256": "2055e42ff383e8e446e2452ca5ef8b0edd777764f6175f10abf5a50d96ae16a6",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_Mini_AdblockPlus.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_Mini_Ai.ini": {
+      "sha256": "92c28c5197eb47407c8921f6fb10c4688e98a2cf77cc07629740d05f8222af71",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_Mini_Ai.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_Mini_Fallback.ini": {
+      "sha256": "98c55e356e81b4eb1f3893972df73ccf3df38dc36d23d46d7cb7bd24efa71705",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_Mini_Fallback.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_Mini_MultiCountry.ini": {
+      "sha256": "14ce3b945ca4759cc6f5f03afeb168f176a273c3cd523907e8fd0f6bf29cf008",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_Mini_MultiCountry.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini": {
+      "sha256": "0adc1087d50e6f7569feebd5afb0b3ef341e1dd8f63e4e8c48288d3895fb0942",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_Mini_MultiMode.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_Mini_NoAuto.ini": {
+      "sha256": "392de009b3f42a86ef86d55de3eec78af1bf8fbe1874a34e2ac8e56e2c79329d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_Mini_NoAuto.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_MultiCountry.ini": {
+      "sha256": "076f4448767e6073dbabd68f932350c23241012f11d67e7436c46bc1942d8592",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_MultiCountry.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_NoAuto.ini": {
+      "sha256": "8188277c0c7c68accecfdcbcc52a4b7d6c2e4f20b753b8a60509fddec03d5be5",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_NoAuto.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_Online_NoReject.ini": {
+      "sha256": "30163292f6fc85acee85bdd0134001c4f2c263af59d0554fc31af0244115632b",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_Online_NoReject.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_WithChinaIp.ini": {
+      "sha256": "e28f6a2a4a9758f7359913836685f3cf004b100edafb72d377649ea4c5f7b43d",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_WithChinaIp.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_WithChinaIp_WithGFW.ini": {
+      "sha256": "2ec5f69644edb79b4327cf38e7d6c1a94bb219f65dce4fd5180b088897a5eff4",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_WithChinaIp_WithGFW.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/config/ACL4SSR_WithGFW.ini": {
+      "sha256": "ee094a2dee57ad0ae216d216bcce0ab1ddeb4ae4fe8fbf712556d0dac097e9d4",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\config\\ACL4SSR_WithGFW.ini"
+    },
+    "Subconverter/rules/ACL4SSR/Clash/pref.ini": {
+      "sha256": "235f2c5411a72a345d9cd9a33e9e5b377949c2f3a53b7555a6a07d641da43019",
+      "source": "Y:\\Public\\subconverter\\rules\\ACL4SSR\\Clash\\pref.ini"
+    },
+    "Subconverter/rules/GOUKI/Claude.list": {
+      "sha256": "0ba6e86dcc47b84e59a683c1bbad97992ff8fcd872d600eb807b3b99853091a8",
+      "source": "Y:\\Public\\subconverter\\rules\\GOUKI\\Claude.list"
+    },
+    "Subconverter/rules/GOUKI/CustomAD.list": {
+      "sha256": "530817937b672a8a552288d8db3f66042e0d1bccf2753551b59d92c588a210ea",
+      "source": "Y:\\Public\\subconverter\\rules\\GOUKI\\CustomAD.list"
+    },
+    "Subconverter/rules/GOUKI/CustomDirect.list": {
+      "sha256": "23e8449ae024e502250693ef26e79ee51a9a396f32bbc41b3ff07d785bce3540",
+      "source": "Y:\\Public\\subconverter\\rules\\GOUKI\\CustomDirect.list"
+    },
+    "Subconverter/rules/GOUKI/CustomProxy.list": {
+      "sha256": "3bef14d6b65c70fb42f37a7683e3b552dc6c6fe46cb6bc4937b0df4312b2876d",
+      "source": "Y:\\Public\\subconverter\\rules\\GOUKI\\CustomProxy.list"
+    },
+    "Subconverter/rules/GOUKI/Games.list": {
+      "sha256": "cab1145111f77b78a6d293a3ef53b77ca6542885b8b5ffb7a8a2a1b23dcf135f",
+      "source": "Y:\\Public\\subconverter\\rules\\GOUKI\\Games.list"
+    },
+    "Subconverter/rules/GOUKI/Gemini.list": {
+      "sha256": "ba82f3c874c079dcaf5d72c2b17b3c1c8c70352aec414461183d86a4ee5f9852",
+      "source": "Y:\\Public\\subconverter\\rules\\GOUKI\\Gemini.list"
+    },
+    "Subconverter/rules/GOUKI/HBO.list": {
+      "sha256": "e933d2a6b09560285dd7d5cab0d9c0a27d05867aeb4ac424a57abca593546d20",
+      "source": "Y:\\Public\\subconverter\\rules\\GOUKI\\HBO.list"
+    },
+    "Subconverter/rules/GOUKI/Kwai.list": {
+      "sha256": "27f97ec39f361e5d55bf403755afacf469da61db237a155284f6321e0db88225",
+      "source": "Y:\\Public\\subconverter\\rules\\GOUKI\\Kwai.list"
+    },
+    "Subconverter/rules/GOUKI/NaSDDNS.list": {
+      "sha256": "31aa144d51edcfd162908b2df7b4c62103f0a07b9bfe6cd74f5e5785ae010865",
+      "source": "Y:\\Public\\subconverter\\rules\\GOUKI\\NaSDDNS.list"
+    },
+    "Subconverter/rules/GOUKI/PayPalStripe.list": {
+      "sha256": "afb886ebf75ea5779ed7301270bc4e884918351048f5cc788e4c97a9325f80ff",
+      "source": "Y:\\Public\\subconverter\\rules\\GOUKI\\PayPalStripe.list"
+    },
+    "Subconverter/rules/GOUKI/Speedtest.list": {
+      "sha256": "6b0a0113552c3a84afe35b27e2d612e87c6064e78100a488393433ac9a471976",
+      "source": "Y:\\Public\\subconverter\\rules\\GOUKI\\Speedtest.list"
+    },
+    "Subconverter/rules/GOUKI/Weather.list": {
+      "sha256": "2cdc4a8f1d5c004bde509b08175ace6ed1071976d2887788f13b4f06da52b17f",
+      "source": "Y:\\Public\\subconverter\\rules\\GOUKI\\Weather.list"
+    },
+    "Subconverter/snippets/emoji.toml": {
+      "sha256": "00c8e60b1f971c8c6794e38cee0d797cb4ee6ba2cc42567aba4d91802cdc7a2e",
+      "source": "Y:\\Public\\subconverter\\snippets\\emoji.toml"
+    },
+    "Subconverter/snippets/emoji.txt": {
+      "sha256": "3bec49924f5cfe5c766a0bb03eb4b6570ad5d532cf314a6496b976e5ce52c14d",
+      "source": "Y:\\Public\\subconverter\\snippets\\emoji.txt"
+    },
+    "Subconverter/snippets/groups.toml": {
+      "sha256": "27c04febbae15423ec9c9c0fdc4013d344c389e04ad1b0fde416c40af622da92",
+      "source": "Y:\\Public\\subconverter\\snippets\\groups.toml"
+    },
+    "Subconverter/snippets/groups.txt": {
+      "sha256": "d2659d1e6ec586d5e83dc5227fcb3deafbd0d5950dd5dbed94750ab329df66c3",
+      "source": "Y:\\Public\\subconverter\\snippets\\groups.txt"
+    },
+    "Subconverter/snippets/groups_forcerule.toml": {
+      "sha256": "0bf737ed1f7a5463be4316dc2fcac4c79a2467d356abe0ee0316da6487c4b4d8",
+      "source": "Y:\\Public\\subconverter\\snippets\\groups_forcerule.toml"
+    },
+    "Subconverter/snippets/groups_forcerule.txt": {
+      "sha256": "9b725388b841427a5cbdd5a6f944d933e453c9b40dd735803e5e20acb03fdcad",
+      "source": "Y:\\Public\\subconverter\\snippets\\groups_forcerule.txt"
+    },
+    "Subconverter/snippets/rename_GOUKI.toml": {
+      "sha256": "6c140f22af814f9282523272aab601e496e6288d2f2994e39f986a13f6807746",
+      "source": "Y:\\Public\\subconverter\\snippets\\rename_GOUKI.toml"
+    },
+    "Subconverter/snippets/rename_node.toml": {
+      "sha256": "6b7865f17768b1e0b5da7eece4c5c76a1e9cb75ecc9ced7b73e39d6222d6b135",
+      "source": "Y:\\Public\\subconverter\\snippets\\rename_node.toml"
+    },
+    "Subconverter/snippets/rename_node.txt": {
+      "sha256": "c45716ad6be31befb385122c1db1fa9926ab6f2b13e92ec787117ba3b9046aa3",
+      "source": "Y:\\Public\\subconverter\\snippets\\rename_node.txt"
+    },
+    "Subconverter/snippets/rulesets.toml": {
+      "sha256": "d78c50b551c99c9bff68600ca9286f570e4f507b296bc1dde1dffe67d43ff53b",
+      "source": "Y:\\Public\\subconverter\\snippets\\rulesets.toml"
+    },
+    "Subconverter/snippets/rulesets.txt": {
+      "sha256": "e9c5660c60f52ffa8956004feb3b47b7362d56de1491613c6cb9513aa4bca617",
+      "source": "Y:\\Public\\subconverter\\snippets\\rulesets.txt"
+    },
+    "Subconverter/snippets/rulesets_remote.txt": {
+      "sha256": "7b7148b71edf624acdf15be2cb488d9c1165754eacc794db4764d46cc76a39dc",
+      "source": "Y:\\Public\\subconverter\\snippets\\rulesets_remote.txt"
+    },
+    "airport_proxy/domains.json": {
+      "sha256": "febc91d01924174b0aa9bb5dc548bdb058e53fb98a1f246b2e95ac61481f16fe",
+      "source": "Y:\\Public\\subconverter\\airport_proxy\\domains.json"
+    },
+    "airport_proxy/ua_proxy.py": {
+      "sha256": "6227b6ebaa5b984bc9b08d9c11e3608c52e365bb0560421466a89fdaff5c4399",
+      "source": "Y:\\Public\\subconverter\\airport_proxy\\ua_proxy.py"
+    },
+    "submgr/submgr.sh": {
+      "sha256": "23c026c62bdb7e5f0a4dad1bb64851759877f23658fd8757840c5b44efd1ce97",
+      "source": "http://192.168.191.1/submgr/submgr.sh"
+    },
+    "subweb/current-dist/LOCAL_CHANGES.md": {
+      "sha256": "6fd85da9f9ac17ad6a27477644d7fed5b22296632a65170db1abab5f2a637bc0",
+      "source": "Y:\\web\\subweb\\LOCAL_CHANGES.md"
+    },
+    "subweb/current-dist/css/main.css": {
+      "sha256": "4fcb9932fe3b1b10a43ba5b90ceda4ad6c125e40451aea7e9cb91c69dccd5f40",
+      "source": "Y:\\web\\subweb\\css\\main.css"
+    },
+    "subweb/current-dist/favicon.ico": {
+      "sha256": "66c47a1a5196c3ae44d856498c2e4259ba5f912cc053a1aa1f6f6430177b121f",
+      "source": "Y:\\web\\subweb\\favicon.ico"
+    },
+    "subweb/current-dist/index.html": {
+      "sha256": "50f25dc900f177ccbd85ac6254c929d301b4ba34eb391c12a825a4b8807c47eb",
+      "source": "Y:\\web\\subweb\\index.html"
+    },
+    "subweb/current-dist/js/chunk-vendor.539.js": {
+      "sha256": "90995649bb0c17e102ea61534e5890e987bef4147939f76a76d6b76f9746dc64",
+      "source": "Y:\\web\\subweb\\js\\chunk-vendor.539.js"
+    },
+    "subweb/current-dist/js/main.js": {
+      "sha256": "1ab9eced59329097f6c8eaedd0b33ff5325cb163eb266abf184e7b96b67fc9c6",
+      "source": "Y:\\web\\subweb\\js\\main.js"
+    },
+    "subweb/current-dist/qrcode.min.js": {
+      "sha256": "ac23ba9a5d7da5048d94a442b2bc1131d8c149e1e0dea9b10a2e5a586b252863",
+      "source": "Y:\\web\\subweb\\qrcode.min.js"
+    },
+    "subweb/current-dist/vendor/fontawesome/css/all.min.css": {
+      "sha256": "1edb1725a9ea8ca4dcf2f5508cee183218aa1685e47c1b23056717f754f58ebf",
+      "source": "Y:\\web\\subweb\\vendor\\fontawesome\\css\\all.min.css"
+    },
+    "subweb/current-dist/vendor/fontawesome/webfonts/fa-brands-400.ttf": {
+      "sha256": "20c4a58bc9d1d69e935d06f1528923646a715be5e218665655cade8f5f1b8c00",
+      "source": "Y:\\web\\subweb\\vendor\\fontawesome\\webfonts\\fa-brands-400.ttf"
+    },
+    "subweb/current-dist/vendor/fontawesome/webfonts/fa-brands-400.woff2": {
+      "sha256": "748332090c4b8e20f95d0ff59f0be20fa9c889359d3b36d4b886d73376054207",
+      "source": "Y:\\web\\subweb\\vendor\\fontawesome\\webfonts\\fa-brands-400.woff2"
+    },
+    "subweb/current-dist/vendor/fontawesome/webfonts/fa-regular-400.ttf": {
+      "sha256": "528d022dce6725f8a0811fd91d8e6513445c81ef33353a5c3234eab932551abf",
+      "source": "Y:\\web\\subweb\\vendor\\fontawesome\\webfonts\\fa-regular-400.ttf"
+    },
+    "subweb/current-dist/vendor/fontawesome/webfonts/fa-regular-400.woff2": {
+      "sha256": "8e7e5ea1b15f62ab14dbd41768e8fbcd21cc859a4ea5da812457ee714299fb35",
+      "source": "Y:\\web\\subweb\\vendor\\fontawesome\\webfonts\\fa-regular-400.woff2"
+    },
+    "subweb/current-dist/vendor/fontawesome/webfonts/fa-solid-900.ttf": {
+      "sha256": "67a65763c7f80903d81603bbeb9049fc2bf28508479b83ed011fe24c71fa950a",
+      "source": "Y:\\web\\subweb\\vendor\\fontawesome\\webfonts\\fa-solid-900.ttf"
+    },
+    "subweb/current-dist/vendor/fontawesome/webfonts/fa-solid-900.woff2": {
+      "sha256": "7152a6933ee3d690ec2af3d09da9d701723d16aa3410a6d80f28ff8866f3b880",
+      "source": "Y:\\web\\subweb\\vendor\\fontawesome\\webfonts\\fa-solid-900.woff2"
+    },
+    "subweb/current-dist/vendor/fontawesome/webfonts/fa-v4compatibility.ttf": {
+      "sha256": "0515a423f828ce4e6accf92a2ea0b03d19d31cc86d9af0373291e1fd4db5f348",
+      "source": "Y:\\web\\subweb\\vendor\\fontawesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    "subweb/current-dist/vendor/fontawesome/webfonts/fa-v4compatibility.woff2": {
+      "sha256": "694a17c3d9d6c05f8aac63c544615552a4b220e9a4de863d87341a6bcfc1bc8d",
+      "source": "Y:\\web\\subweb\\vendor\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    "subweb/current-dist/vendor/inter/inter-cyrillic-ext.woff2": {
+      "sha256": "ca157063339ac4ad418f214f3abfed119b0798ab4d377386ce5c9e5a7a435ebd",
+      "source": "Y:\\web\\subweb\\vendor\\inter\\inter-cyrillic-ext.woff2"
+    },
+    "subweb/current-dist/vendor/inter/inter-cyrillic.woff2": {
+      "sha256": "71d5ee93cc1e9f1d520a3a8b66456de18c7879d8df09d57fcd2eaff75fef0075",
+      "source": "Y:\\web\\subweb\\vendor\\inter\\inter-cyrillic.woff2"
+    },
+    "subweb/current-dist/vendor/inter/inter-greek-ext.woff2": {
+      "sha256": "6e9e020a25f9b56d418f2c085b1d3c09725a4da23fe693a5b463064606732190",
+      "source": "Y:\\web\\subweb\\vendor\\inter\\inter-greek-ext.woff2"
+    },
+    "subweb/current-dist/vendor/inter/inter-greek.woff2": {
+      "sha256": "1be3448e292fbf05ffe176fe1e43f135013d50b1e7d324ad1a558f623d3bb6f6",
+      "source": "Y:\\web\\subweb\\vendor\\inter\\inter-greek.woff2"
+    },
+    "subweb/current-dist/vendor/inter/inter-latin-ext.woff2": {
+      "sha256": "34b9c504cab7a73e37b746343a449132e56cf7b5481af2cb81dc74dcff25c956",
+      "source": "Y:\\web\\subweb\\vendor\\inter\\inter-latin-ext.woff2"
+    },
+    "subweb/current-dist/vendor/inter/inter-latin.woff2": {
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+      "source": "Y:\\web\\subweb\\vendor\\inter\\inter-latin.woff2"
+    },
+    "subweb/current-dist/vendor/inter/inter-vietnamese.woff2": {
+      "sha256": "5c66f9e07e90c6d4ac4922cc68d60de26c17b1858e677fb5e603fce3952b3ff2",
+      "source": "Y:\\web\\subweb\\vendor\\inter\\inter-vietnamese.woff2"
+    },
+    "subweb/current-dist/vendor/inter/inter.css": {
+      "sha256": "626e4e9db7d5ca63e5db1eaaa6a612c167c437168b1f9071cf5f1b8ba906c04a",
+      "source": "Y:\\web\\subweb\\vendor\\inter\\inter.css"
+    },
+    "subweb/current-dist/vendor/jquery/jquery-3.6.4.min.js": {
+      "sha256": "a0fe8723dcf55da64d06b25446d0a8513e52527c45afcb37073465f9c6f352af",
+      "source": "Y:\\web\\subweb\\vendor\\jquery\\jquery-3.6.4.min.js"
+    },
+    "subweb/local-overlay/CURRENT_LOCAL_CHANGES.md": {
+      "sha256": "6fd85da9f9ac17ad6a27477644d7fed5b22296632a65170db1abab5f2a637bc0",
+      "source": "Y:\\docker\\subweb-local-overlay\\CURRENT_LOCAL_CHANGES.md"
+    },
+    "subweb/local-overlay/README.md": {
+      "sha256": "96dab494c4185dfe88de4fb7b374960207881a7aa24c0a8310ae98046ee5ea6d",
+      "source": "Y:\\docker\\subweb-local-overlay\\README.md"
+    },
+    "subweb/local-overlay/apply.py": {
+      "sha256": "9ec640b1207115bd7fdbad2609ad746ed0ce8a2ee529989bc136d3f18ce1a6c9",
+      "source": "Y:\\docker\\subweb-local-overlay\\apply.py"
+    },
+    "subweb/local-overlay/vendor/fontawesome/css/all.min.css": {
+      "sha256": "1edb1725a9ea8ca4dcf2f5508cee183218aa1685e47c1b23056717f754f58ebf",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\fontawesome\\css\\all.min.css"
+    },
+    "subweb/local-overlay/vendor/fontawesome/webfonts/fa-brands-400.ttf": {
+      "sha256": "20c4a58bc9d1d69e935d06f1528923646a715be5e218665655cade8f5f1b8c00",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\fontawesome\\webfonts\\fa-brands-400.ttf"
+    },
+    "subweb/local-overlay/vendor/fontawesome/webfonts/fa-brands-400.woff2": {
+      "sha256": "748332090c4b8e20f95d0ff59f0be20fa9c889359d3b36d4b886d73376054207",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\fontawesome\\webfonts\\fa-brands-400.woff2"
+    },
+    "subweb/local-overlay/vendor/fontawesome/webfonts/fa-regular-400.ttf": {
+      "sha256": "528d022dce6725f8a0811fd91d8e6513445c81ef33353a5c3234eab932551abf",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\fontawesome\\webfonts\\fa-regular-400.ttf"
+    },
+    "subweb/local-overlay/vendor/fontawesome/webfonts/fa-regular-400.woff2": {
+      "sha256": "8e7e5ea1b15f62ab14dbd41768e8fbcd21cc859a4ea5da812457ee714299fb35",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\fontawesome\\webfonts\\fa-regular-400.woff2"
+    },
+    "subweb/local-overlay/vendor/fontawesome/webfonts/fa-solid-900.ttf": {
+      "sha256": "67a65763c7f80903d81603bbeb9049fc2bf28508479b83ed011fe24c71fa950a",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\fontawesome\\webfonts\\fa-solid-900.ttf"
+    },
+    "subweb/local-overlay/vendor/fontawesome/webfonts/fa-solid-900.woff2": {
+      "sha256": "7152a6933ee3d690ec2af3d09da9d701723d16aa3410a6d80f28ff8866f3b880",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\fontawesome\\webfonts\\fa-solid-900.woff2"
+    },
+    "subweb/local-overlay/vendor/fontawesome/webfonts/fa-v4compatibility.ttf": {
+      "sha256": "0515a423f828ce4e6accf92a2ea0b03d19d31cc86d9af0373291e1fd4db5f348",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\fontawesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    "subweb/local-overlay/vendor/fontawesome/webfonts/fa-v4compatibility.woff2": {
+      "sha256": "694a17c3d9d6c05f8aac63c544615552a4b220e9a4de863d87341a6bcfc1bc8d",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    "subweb/local-overlay/vendor/inter/inter-cyrillic-ext.woff2": {
+      "sha256": "ca157063339ac4ad418f214f3abfed119b0798ab4d377386ce5c9e5a7a435ebd",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\inter\\inter-cyrillic-ext.woff2"
+    },
+    "subweb/local-overlay/vendor/inter/inter-cyrillic.woff2": {
+      "sha256": "71d5ee93cc1e9f1d520a3a8b66456de18c7879d8df09d57fcd2eaff75fef0075",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\inter\\inter-cyrillic.woff2"
+    },
+    "subweb/local-overlay/vendor/inter/inter-greek-ext.woff2": {
+      "sha256": "6e9e020a25f9b56d418f2c085b1d3c09725a4da23fe693a5b463064606732190",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\inter\\inter-greek-ext.woff2"
+    },
+    "subweb/local-overlay/vendor/inter/inter-greek.woff2": {
+      "sha256": "1be3448e292fbf05ffe176fe1e43f135013d50b1e7d324ad1a558f623d3bb6f6",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\inter\\inter-greek.woff2"
+    },
+    "subweb/local-overlay/vendor/inter/inter-latin-ext.woff2": {
+      "sha256": "34b9c504cab7a73e37b746343a449132e56cf7b5481af2cb81dc74dcff25c956",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\inter\\inter-latin-ext.woff2"
+    },
+    "subweb/local-overlay/vendor/inter/inter-latin.woff2": {
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\inter\\inter-latin.woff2"
+    },
+    "subweb/local-overlay/vendor/inter/inter-vietnamese.woff2": {
+      "sha256": "5c66f9e07e90c6d4ac4922cc68d60de26c17b1858e677fb5e603fce3952b3ff2",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\inter\\inter-vietnamese.woff2"
+    },
+    "subweb/local-overlay/vendor/inter/inter.css": {
+      "sha256": "626e4e9db7d5ca63e5db1eaaa6a612c167c437168b1f9071cf5f1b8ba906c04a",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\inter\\inter.css"
+    },
+    "subweb/local-overlay/vendor/jquery/jquery-3.6.4.min.js": {
+      "sha256": "a0fe8723dcf55da64d06b25446d0a8513e52527c45afcb37073465f9c6f352af",
+      "source": "Y:\\docker\\subweb-local-overlay\\vendor\\jquery\\jquery-3.6.4.min.js"
+    }
+  }
+}

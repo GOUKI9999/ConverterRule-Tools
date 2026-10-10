@@ -1,0 +1,54 @@
+{
+  "telegram": {"enable": false, "token": "", "chat_id": ""},
+  "options": {
+    "dl_retries": 3,
+    "dl_sleep": 10,
+    "dl_timeout": 90,
+    "raw_min_bytes": 200,
+    "raw_max_rules": 200,
+    "raw_max_age_min": 180,
+    "node_drop_pct": 40,
+    "node_min_keep": 1,
+    "list_truncate": 15,
+    "log_keep_lines": 3000,
+    "user_agent": ""
+  },
+  "airports": [
+    {
+      "name": "Tladder",
+      "enabled": true,
+      "min_nodes": 5,
+      "min_rules": 10000,
+      "min_groups": 10,
+      "raw_ext": "yaml",
+      "raw_url": "https://example.invalid/tladder/subscribe",
+      "backup_url": "",
+      "convert_url": "http://192.168.1.8:25500/sub?target=clash&url=http%3A%2F%2F192.168.1.1%2FTladder.yaml&config=config%2FGOUKI_Local2.ini",
+      "user_agent": "mihomo/1.18.0"
+    },
+    {
+      "name": "Nerwo",
+      "enabled": true,
+      "min_nodes": 20,
+      "min_rules": 10000,
+      "min_groups": 10,
+      "raw_ext": "yaml",
+      "raw_url": "https://example.invalid/nerwo/subscribe",
+      "backup_url": "",
+      "convert_url": "http://192.168.1.8:25500/sub?target=clash&url=http%3A%2F%2F192.168.1.1%2FNerwo.yaml%7Chttp%3A%2F%2F192.168.1.1%2FTladder.yaml&config=config%2FGOUKI_Local.ini"
+    },
+    {
+      "name": "FubukiCloud",
+      "enabled": true,
+      "min_nodes": 10,
+      "min_rules": 10000,
+      "min_groups": 10,
+      "raw_ext": "yaml",
+      "raw_url": "https://example.invalid/fubuki/subscribe",
+      "backup_url": "",
+      "convert_url": "http://192.168.1.8:25500/sub?target=clash&url=http%3A%2F%2F192.168.1.1%2FFubukiCloud.yaml%7Chttp%3A%2F%2F192.168.1.1%2FTladder.yaml&config=config%2FGOUKI_Local.ini",
+      "raw_max_rules": 800,
+      "user_agent": "clash-verge/v2.4.0"
+    }
+  ]
+}

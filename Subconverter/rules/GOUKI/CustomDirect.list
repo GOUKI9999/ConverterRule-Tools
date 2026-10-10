@@ -1,5 +1,27 @@
 # 内容：CustomDirect
+DST-PORT,123,DIRECT,udp
 DOMAIN-SUFFIX,local
+GEOIP,LAN
+# 特定的程序不走代理
+PROCESS-NAME,zerotier-one_x64.exe
+PROCESS-NAME,zerotier-one
+# 几个代理订阅的域名
+DOMAIN-SUFFIX,threebrother.top
+DOMAIN-SUFFIX,cutecloud.link
+DOMAIN-SUFFIX,cu-te.cn
+DOMAIN-SUFFIX,s.juzicloud.vip
+#DOMAIN-SUFFIX,donti.uk
+DOMAIN-SUFFIX,mainland.tivpn.com
+# 其他直连服务
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,opentracker.i2p.rocks
+DOMAIN-SUFFIX,500d.me
+DOMAIN-SUFFIX,alist.nn.ci
+DOMAIN-SUFFIX,dothantech.com
+DOMAIN-SUFFIX,faith.wang
+DOMAIN-SUFFIX,woozooo.com
+DOMAIN-SUFFIX,openwrt.ai
+DOMAIN-SUFFIX,vfsglobal.com
 DOMAIN-SUFFIX,iepose.com
 DOMAIN-SUFFIX,iepose.cn
 DOMAIN-SUFFIX,ionewu.com
@@ -10,24 +32,20 @@ DOMAIN-SUFFIX,114menhu.com
 DOMAIN-SUFFIX,op.supes.top
 DOMAIN-SUFFIX,dogfight360.com
 DOMAIN-SUFFIX,max-c.com
-DOMAIN-SUFFIX,threebrother.top
-DOMAIN-SUFFIX,cutecloud.link
-DOMAIN-SUFFIX,s.juzicloud.vip
-DOMAIN-SUFFIX,aliyuncs.com
-DOMAIN-SUFFIX,opentracker.i2p.rocks
-DOMAIN-SUFFIX,500d.me
-DOMAIN-SUFFIX,alist.nn.ci
-DOMAIN-SUFFIX,dothantech.com
-DOMAIN-SUFFIX,faith.wang
-DOMAIN-SUFFIX,woozooo.com
-DOMAIN-SUFFIX,openwrt.ai
-DOMAIN-SUFFIX,vfsglobal.com
-DOMAIN-SUFFIX,amd.com
-DOMAIN-SUFFIX,ati.com
-DOMAIN-SUFFIX,nvidia.com
-DOMAIN-SUFFIX,mainland.tivpn.com
 DOMAIN-SUFFIX,gamersky.com
 DOMAIN-SUFFIX,www.gmwiki.com
 DOMAIN-SUFFIX,ads.kwai.com
-DOMAIN-SUFFIX,services.googleapis.cn,DIRECT
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com,DIRECT
+DOMAIN-SUFFIX,mintegral.com
+DOMAIN-SUFFIX,services.googleapis.cn
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,tuyacn.com
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,time.android.com
+DOMAIN-SUFFIX,pool.ntp.org
+# 驱动下载一类
+DOMAIN-SUFFIX,amd.com
+DOMAIN-SUFFIX,ati.com
+DOMAIN-SUFFIX,nvidia.com
+DOMAIN-SUFFIX,downloadmirror.intel.com
+
+
