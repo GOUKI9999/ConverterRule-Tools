@@ -1,0 +1,11 @@
+{
+  "repository": "D:\\Temp\\Gitpath\\ConverterRule-Tools",
+  "branch": "maintenance/acl4ssr-sync",
+  "remote": "origin",
+  "converter": "Y:\\Public\\subconverter",
+  "subweb": "Y:\\web\\subweb",
+  "overlay": "Y:\\docker\\subweb-local-overlay",
+  "acl_repository": "D:\\Temp\\Gitpath\\ACL4SSR",
+  "acl_state": "D:\\Temp\\CodeTemp\\ACL4SSR-upstream-maintenance-20261010\\runtime\\state.json",
+  "router_script_url": "http://192.168.191.1/submgr/submgr.sh"
+}

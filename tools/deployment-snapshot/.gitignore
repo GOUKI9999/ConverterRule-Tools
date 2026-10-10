@@ -1,0 +1,5 @@
+config.json
+*.log
+*.lock
+last-plan.json
+__pycache__/
