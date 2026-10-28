@@ -13,6 +13,27 @@ import subprocess
 import urllib.request
 
 ROOT = Path(__file__).resolve().parent
+
+# Windows sometimes returns the extended-length spelling of the same location from resolve()
+# (observed on the RaiDrive network drive: root resolved to the UNC-extended form while the file
+# resolved to the plain form), which made is_relative_to/equality checks fail at random.
+_BS = chr(92)
+_EXT_UNC = _BS * 2 + '?' + _BS + 'UNC' + _BS
+_EXT = _BS * 2 + '?' + _BS
+
+
+def normalize_extended(text):
+    """Map the extended-length forms back to the plain ones: UNC-extended to a UNC path, drive-extended to a drive path."""
+    if text.startswith(_EXT_UNC):
+        return _BS * 2 + text[len(_EXT_UNC):]
+    if text.startswith(_EXT):
+        return text[len(_EXT):]
+    return text
+
+
+def real_path(path):
+    return Path(normalize_extended(str(Path(path).resolve())))
+
 LOG = logging.getLogger('deployment-snapshot')
 
 
@@ -55,7 +76,7 @@ def collect(config, router_data=None):
         raise ValueError('ACL4SSR production branch must be clean and selected')
     if state['head'] != git(acl_repo, 'rev-parse', 'HEAD'):
         raise ValueError('ACL4SSR state does not match committed production branch')
-    if Path(state['production']).resolve() != (nas / 'rules/ACL4SSR/Clash').resolve():
+    if real_path(state['production']) != real_path(nas / 'rules/ACL4SSR/Clash'):
         raise ValueError('ACL4SSR state refers to another production path')
     files = {}
     sources = {}

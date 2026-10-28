@@ -12,6 +12,32 @@ sync = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(sync)
 
 
+class RealPathTests(unittest.TestCase):
+    BS = chr(92)
+
+    def test_normalize_extended_forms(self):
+        bs = self.BS
+        plain = bs * 2 + 'srv' + bs + 'share' + bs + 'Clash'
+        self.assertEqual(sync.normalize_extended(bs * 2 + '?' + bs + 'UNC' + bs + 'srv' + bs + 'share' + bs + 'Clash'), plain)
+        self.assertEqual(sync.normalize_extended(bs * 2 + '?' + bs + 'D:' + bs + 'x'), 'D:' + bs + 'x')
+        self.assertEqual(sync.normalize_extended(plain), plain)
+
+    def test_safe_path_accepts_mixed_resolve_spellings(self):
+        # Root resolves to the UNC-extended spelling while the file resolves to the plain one.
+        bs = self.BS
+        plain = bs * 2 + 'srv' + bs + 'share' + bs + 'Clash'
+        extended = bs * 2 + '?' + bs + 'UNC' + bs + 'srv' + bs + 'share' + bs + 'Clash'
+        root = Path(plain)
+
+        def fake_resolve(self, strict=False):
+            return Path(extended) if str(self) == plain else self
+
+        with patch.object(Path, 'resolve', fake_resolve):
+            self.assertEqual(sync.safe_path(root, 'Ruleset/Apple.list'), root / 'Ruleset' / 'Apple.list')
+            with self.assertRaises(RuntimeError):
+                sync.safe_path(root, '../x.list')
+
+
 class PublishTests(unittest.TestCase):
     def setUp(self):
         # Keep fixtures for inspection; never use system Temp.
