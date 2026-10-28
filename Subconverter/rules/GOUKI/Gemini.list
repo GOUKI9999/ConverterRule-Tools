@@ -1,43 +1,97 @@
-# 内容：bard.google
-# 数量：19条
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,gemini.gstatic.com
+# 内容：Google AI 全家桶（Bard/Gemini/AI Studio/DeepMind/NotebookLM/Labs/Jules/Antigravity/Code Assist 等）
+# 数量：66条
+# 参考：v2fly/domain-list-community data/google-deepmind（2026-10 版）+ 自补
+# 更新：2026-10-14 去掉过宽的 googleapis.com / apis.google.com / clientsN 正则；Grok 系移至 Twitter.list
+
+# Gemini / Bard 网页端
+DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,gemini.gstatic.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN,geminiweb-pa.clients.google.com
+DOMAIN,geminiweb-pa.clients6.google.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,alkalimining-pa.googleapis.com
+# 回答中来源链接的跳转页
+DOMAIN,vertexaisearch.cloud.google.com
+
+# Google AI Studio / Gemini API / MakerSuite
+DOMAIN-SUFFIX,ai.studio
 DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,heygen.com
-DOMAIN-SUFFIX,heygen.ai
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,ai.google
+DOMAIN,ai.google.dev
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN-KEYWORD,developerprofiles-pa.googleapis.com
+
+# Vertex AI（含区域端点 us-central1-aiplatform.googleapis.com 等）
+DOMAIN-KEYWORD,aiplatform.googleapis.com
+
+# DeepMind
+DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,labs.google
+
+# NotebookLM
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
-DOMAIN-REGEX,(^|\.)clients\d+\.google\.com$
-DOMAIN-KEYWORD,heygen-resources
+DOMAIN-SUFFIX,notebook.google
+DOMAIN-SUFFIX,notebook.google.com
+DOMAIN,notebooklm-pa.googleapis.com
+DOMAIN,notebooklm.googleapis.com
+DOMAIN-SUFFIX,labstailwind.pa.googleapis.com
+
+# Google Labs / Flow / Opal / Stitch
+DOMAIN-SUFFIX,labs.google
+DOMAIN-SUFFIX,labs.google.com
+DOMAIN-SUFFIX,flow.google
+DOMAIN-SUFFIX,flow.google.com
+DOMAIN-SUFFIX,opal.google
+DOMAIN-SUFFIX,opal.google.com
+DOMAIN-SUFFIX,stitch.withgoogle.com
+DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+
+# Jules（编码 Agent）
+DOMAIN-SUFFIX,jules.google
+DOMAIN-SUFFIX,jules.google.com
+DOMAIN-SUFFIX,jules.googleapis.com
+
+# Gemini Code Assist / Gemini CLI / Android Studio Gemini
+DOMAIN,cloudaicompanion.googleapis.com
+DOMAIN,cloudcode-pa.googleapis.com
+DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN-SUFFIX,aicode.googleapis.com
+DOMAIN-SUFFIX,aida.googleapis.com
+
+# Firebase Studio（原 Project IDX）
+DOMAIN-SUFFIX,idx.google.com
+DOMAIN-SUFFIX,idx.dev
+DOMAIN-SUFFIX,studio.firebase.google.com
+
+# Colab
+DOMAIN-SUFFIX,colab.research.google.com
+DOMAIN-SUFFIX,colab.google
 DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
-DOMAIN-KEYWORD,generativelanguage
-DOMAIN-KEYWORD,antigravity
-DOMAIN-KEYWORD,com.google.antigravity
-DOMAIN-KEYWORD,com.google.antigravity.helper
-DOMAIN-KEYWORD,grokipedia.com
-DOMAIN-KEYWORD,grokusercontent.com
-DOMAIN-KEYWORD,grok.com
-DOMAIN,ai.google.dev
-DOMAIN,makersuite.google.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,geller-pa.googleapis.com
-DOMAIN-SUFFIX,antigravity-unleash.goog
+
+# Antigravity（关键字兜底未知子域）
 DOMAIN-SUFFIX,antigravity.google
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,colab.research.google.com
-DOMAIN,content-developerprofiles-pa.googleapis.com
+DOMAIN-SUFFIX,antigravity-unleash.goog
+DOMAIN,antigravity-pa.googleapis.com
+DOMAIN,antigravity.googleapis.com
+DOMAIN-KEYWORD,antigravity
 DOMAIN,cdn.usefathom.com
+
+# 非 Google，沿用本组出口
+DOMAIN-SUFFIX,heygen.com
+DOMAIN-SUFFIX,heygen.ai
+DOMAIN-KEYWORD,heygen-resources
+
+# 进程规则：仅在本机运行 Clash（如 Clash Verge）时生效，经路由器 OpenClash 出网的设备无效
 PROCESS-NAME,antigravity.exe
 PROCESS-NAME,ide.exe
 PROCESS-NAME,language_server.exe

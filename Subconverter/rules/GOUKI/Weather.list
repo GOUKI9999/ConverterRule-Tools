@@ -5,3 +5,6 @@ DOMAIN-SUFFIX,upsx.wunderground.com
 DOMAIN-SUFFIX,weather.com
 DOMAIN-SUFFIX,mapbox.com
 DOMAIN-KEYWORD,weather
+# PolyClaw: 交易出口与气象数据源同组, 便于按 geoblock 统一切换
+DOMAIN-SUFFIX,polymarket.com
+DOMAIN-SUFFIX,open-meteo.com

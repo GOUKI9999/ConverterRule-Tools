@@ -1,5 +1,5 @@
 # 内容：GFWList 黑名单
-# 数量：4364条
+# 数量：4378条
 DOMAIN-SUFFIX,*.pimg.tw
 DOMAIN-SUFFIX,*.sf.net
 DOMAIN-SUFFIX,*.tuzaijidi.com
@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,10beasts.net
 DOMAIN-SUFFIX,10musume.com
 DOMAIN-SUFFIX,123av.com
 DOMAIN-SUFFIX,123av.me
+DOMAIN-SUFFIX,123av.org
 DOMAIN-SUFFIX,12bet.com
 DOMAIN-SUFFIX,12vpn.com
 DOMAIN-SUFFIX,12vpn.net
@@ -64,6 +65,7 @@ DOMAIN-SUFFIX,6parkbbs.com
 DOMAIN-SUFFIX,6parker.com
 DOMAIN-SUFFIX,6parknews.com
 DOMAIN-SUFFIX,7capture.com
+DOMAIN-SUFFIX,7x24hrs.com
 DOMAIN-SUFFIX,8-d.com
 DOMAIN-SUFFIX,85cc.us
 DOMAIN-SUFFIX,881903.com
@@ -804,6 +806,7 @@ DOMAIN-SUFFIX,comparitech.com
 DOMAIN-SUFFIX,compileheart.com
 DOMAIN-SUFFIX,connect.facebook.net
 DOMAIN-SUFFIX,conoha.jp
+DOMAIN-SUFFIX,console.typesafe.ai
 DOMAIN-SUFFIX,contests.twilio.com
 DOMAIN-SUFFIX,cool18.com
 DOMAIN-SUFFIX,coolaler.com
@@ -1362,6 +1365,7 @@ DOMAIN-SUFFIX,g.ai
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,g0v.social
 DOMAIN-SUFFIX,g6hentai.com
+DOMAIN-SUFFIX,ga.jspm.io
 DOMAIN-SUFFIX,gab.com
 DOMAIN-SUFFIX,gabocorp.com
 DOMAIN-SUFFIX,gagaoolala.com
@@ -2173,6 +2177,7 @@ DOMAIN-SUFFIX,khc.edu.tw
 DOMAIN-SUFFIX,kichiku-doujinko.com
 DOMAIN-SUFFIX,kik.com
 DOMAIN-SUFFIX,killwall.com
+DOMAIN-SUFFIX,kimootoko.net
 DOMAIN-SUFFIX,kindle4rss.com
 DOMAIN-SUFFIX,kindleren.com
 DOMAIN-SUFFIX,kingdomsalvation.org
@@ -2414,7 +2419,9 @@ DOMAIN-SUFFIX,meridian-trust.org
 DOMAIN-SUFFIX,meripet.com
 DOMAIN-SUFFIX,merit-times.com.tw
 DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,metaaivm.com
 DOMAIN-SUFFIX,metafilter.com
 DOMAIN-SUFFIX,metamask.io
 DOMAIN-SUFFIX,metart.com
@@ -2454,6 +2461,7 @@ DOMAIN-SUFFIX,mingshengbao.com
 DOMAIN-SUFFIX,minhhue.net
 DOMAIN-SUFFIX,miningpoolhub.com
 DOMAIN-SUFFIX,ministrybooks.org
+DOMAIN-SUFFIX,minkch.com
 DOMAIN-SUFFIX,minzhuzhongguo.org
 DOMAIN-SUFFIX,miraheze.org
 DOMAIN-SUFFIX,mirdc.org.tw
@@ -2516,6 +2524,7 @@ DOMAIN-SUFFIX,mos.ru
 DOMAIN-SUFFIX,mosavi.io
 DOMAIN-SUFFIX,motherless.com
 DOMAIN-SUFFIX,movements.org
+DOMAIN-SUFFIX,movie.eroterest.net
 DOMAIN-SUFFIX,moviefap.com
 DOMAIN-SUFFIX,mpettis.com
 DOMAIN-SUFFIX,mpfinance.com
@@ -2649,6 +2658,9 @@ DOMAIN-SUFFIX,nitter.net
 DOMAIN-SUFFIX,niu.moe
 DOMAIN-SUFFIX,niusnews.com
 DOMAIN-SUFFIX,njactb.org
+DOMAIN-SUFFIX,njav.com
+DOMAIN-SUFFIX,njav.tv
+DOMAIN-SUFFIX,njavtv.com
 DOMAIN-SUFFIX,nlfreevpn.com
 DOMAIN-SUFFIX,nmsl.website
 DOMAIN-SUFFIX,nnews.eu
@@ -2901,6 +2913,7 @@ DOMAIN-SUFFIX,plexvpn.pro
 DOMAIN-SUFFIX,plurk.com
 DOMAIN-SUFFIX,plus.codes
 DOMAIN-SUFFIX,pmatehunter.com
+DOMAIN-SUFFIX,po-kaki-to.com
 DOMAIN-SUFFIX,po2b.com
 DOMAIN-SUFFIX,podbean.com
 DOMAIN-SUFFIX,podcast.co
@@ -4355,6 +4368,7 @@ DOMAIN-SUFFIX,zootool.com
 DOMAIN-SUFFIX,zophar.net
 DOMAIN-SUFFIX,zorrovpn.com
 DOMAIN-SUFFIX,zozotown.com
+DOMAIN-SUFFIX,zozovideo.com
 DOMAIN-SUFFIX,zpn.im
 DOMAIN-SUFFIX,zspeeder.me
 DOMAIN-SUFFIX,zuo.la

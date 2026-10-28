@@ -202,3 +202,9 @@ config/GOUKI_Local2.ini 等外部配置只负责规则、分组、过滤、重�
 - append_sub_userinfo = true 保持开启；原机场订阅在插入节点之后处理，继续提供最终的流量和到期信息。
 
 修改 pref.toml 后需要重启或重载 subconverter，确保新的 insert_url 被读取。
+
+## 2026-10-27 fake-ip-filter 统一在模板维护
+- 位置：`base/GOUKI_Base.yml` 的 `dns.fake-ip-filter`。新增大模型服务认证/API 域名 17 个（openai/chatgpt/oaistatic/oaiusercontent、anthropic/claude、x.ai/grok、deepseek、z.ai、火山方舟、nvidia、gemini API、xiaomimimo、models.dev、opencode）和 Cloudflare Tunnel（argotunnel.com、cftunnel.com），汇总自 5200U、QnapWRT 的 OpenClash 自定义 fake-ip 过滤。修改前备份：`GOUKI_Base.yml.bak-20261027-fakeip`
+- OpenClash 开启「自定义 Fake-IP 过滤」时是把本机名单**合并**进订阅配置（`merge_list_from_file`，unshift + uniq），不会覆盖模板中的条目；路由器上的旧名单可保留或逐步精简
+- SubConverter-Extended 通过 `/volume1/Public/sce-build/sync/sync_rules.sh` 自动同步本文件（源文件更新时复制到 `base/base/user-gouki/`）
+- 以后新增需要真实 IP 的域名：只改本模板，然后运行一次同步脚本（或等计划任务）；客户端/路由器在下次更新订阅时生效

@@ -32,3 +32,7 @@ The deployed index.html must not contain these strings:
 - cdnjs.cloudflare.com/ajax/libs/font-awesome
 
 All files below /vendor should return HTTP 200 from the SUBWEB virtual host.
+
+## 2026-10-23: source-level local settings
+
+Settings that live in source (backends, rule configs, option order/defaults) are kept as a patch in `source-patches/` (see its README). Build flow: apply patch -> build -> deploy dist -> run apply.py.

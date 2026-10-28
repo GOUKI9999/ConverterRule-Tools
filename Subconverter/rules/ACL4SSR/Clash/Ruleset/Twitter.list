@@ -1,5 +1,5 @@
-# 内容：Twitter
-# 数量：15条
+# 内容：Twitter / X / xAI / Grok
+# 数量：16条
 DOMAIN-KEYWORD,twitter
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,pscp.tv
@@ -14,4 +14,5 @@ DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,cdn.grok.com
+DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,grokusercontent.com

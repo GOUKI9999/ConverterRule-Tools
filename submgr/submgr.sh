@@ -225,7 +225,9 @@ fetch(){ # url out （UA 用按机场生效的 CUR_UA，为空则不带 -A=curl�
 download_raw(){ # name raw bak url burl  -> 0成功(已更新) / 1未更新；并置全局 RAW_STATUS=fresh|stale|bak|none
   local name=$1 raw=$2 bak=$3 url=$4 burl=$5 dl="$2.dl" src i
   RAW_STATUS=none
-  for src in "$url" "$burl"; do
+  # backup_url 可为字符串或数组(主循环已用空格连接)；read -ra 拆分，避免通配符展开
+  local -a burls=(); read -ra burls <<< "$burl"
+  for src in "$url" "${burls[@]}"; do
     [ -z "$src" ] && continue
     i=1
     while [ "$i" -le "$DL_RETRIES" ]; do
@@ -599,7 +601,7 @@ for (( idx=0; idx<ACOUNT; idx++ )); do
   name=$(jq -r ".airports[$idx].name" "$CONF")
   ext=$(jq -r ".airports[$idx].raw_ext // \"yaml\"" "$CONF")
   raw_url=$(jq -r ".airports[$idx].raw_url" "$CONF")
-  backup_url=$(jq -r ".airports[$idx].backup_url // \"\"" "$CONF")
+  backup_url=$(jq -r ".airports[$idx].backup_url // \"\" | if type==\"array\" then join(\" \") else . end" "$CONF")   # 支持字符串或数组(多个备用地址按顺序尝试)
   conv_url=$(jq -r ".airports[$idx].convert_url" "$CONF")
   # 按机场 UA 覆盖（缺省回退全局 USER_AGENT）。fetch 读取 CUR_UA
   CUR_UA=$(jq -r ".airports[$idx].user_agent // \"\"" "$CONF")
