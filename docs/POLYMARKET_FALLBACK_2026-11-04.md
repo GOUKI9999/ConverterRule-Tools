@@ -1,5 +1,7 @@
 # Polymarket API 专用 fallback
 
+> 历史记录：本方案已按用户要求撤回，当前统一使用Weather，不再有独立Polymarket分组。请以[Weather组纠正与维护](WEATHER_GROUP_2026-11-04.md)为准，不照本页部署或执行旧回滚。
+
 ## 目标与范围
 
 - 独立 Polymarket/Fallback_Polymarket，不再要求仅香港；Weather 及其他应用代理选择保持。

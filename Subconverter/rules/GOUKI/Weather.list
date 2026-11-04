@@ -1,9 +1,9 @@
 # 内容：weather
-# 数量：x条
+# 数量：7条
 DOMAIN-SUFFIX,www.wunderground.com
 DOMAIN-SUFFIX,upsx.wunderground.com
 DOMAIN-SUFFIX,weather.com
 DOMAIN-SUFFIX,mapbox.com
 DOMAIN-KEYWORD,weather
-# Polymarket 使用独立策略组, 天气数据源维持原路由
+DOMAIN-SUFFIX,polymarket.com
 DOMAIN-SUFFIX,open-meteo.com

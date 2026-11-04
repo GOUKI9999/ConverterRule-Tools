@@ -214,3 +214,10 @@ config/GOUKI_Local2.ini 等外部配置只负责规则、分组、过滤、重�
 - 本仓库仅归档本批Polymarket相关变更，不覆盖Y盘现有其他变更。新增独立Polymarket.list和策略组，普通天气域名继续原路由。
 - 只按官方API受限地区名称排除，香港优先而非香港限定；HEAD探针为 https://clob.polymarket.com/?polyclaw-health=1，严格200由路由器专用Ruby覆写补齐。
 - 已部署191.1并验证源/运行配置非目标内容和46个原选择均保持。完整验证、限制与回滚见 docs/POLYMARKET_FALLBACK_2026-11-04.md。
+
+## 2026-11-04 Weather 合组纠正（替代上条方案）
+
+- 按用户要求撤回独立Polymarket组/规则文件，恢复统一Weather；第一项为Fallback_Weather，后接8个既有手动入口，不擅自改变命名意图。
+- 删除重复生成长正则与Python生成器；使用subconverter原生script引用，受限地区在snippets/weather_filter.js按行维护，代码/旗帜自动匹配。
+- 191.1覆写钩子改调用weather_health_override.rb，保留严格API HEAD200与独立weather-health探针状态。其他分组及SubFetch逻辑保持。
+- 已验证真实转换、全受限兜底、实际17节点一致性、核心校验、热加载及生产API/地区检查；维护和回滚见docs/WEATHER_GROUP_2026-11-04.md。
