@@ -208,3 +208,9 @@ config/GOUKI_Local2.ini 等外部配置只负责规则、分组、过滤、重�
 - OpenClash 开启「自定义 Fake-IP 过滤」时是把本机名单**合并**进订阅配置（`merge_list_from_file`，unshift + uniq），不会覆盖模板中的条目；路由器上的旧名单可保留或逐步精简
 - SubConverter-Extended 通过 `/volume1/Public/sce-build/sync/sync_rules.sh` 自动同步本文件（源文件更新时复制到 `base/base/user-gouki/`）
 - 以后新增需要真实 IP 的域名：只改本模板，然后运行一次同步脚本（或等计划任务）；客户端/路由器在下次更新订阅时生效
+
+## 2026-11-04 Polymarket 专用多地区 fallback
+
+- 本仓库仅归档本批Polymarket相关变更，不覆盖Y盘现有其他变更。新增独立Polymarket.list和策略组，普通天气域名继续原路由。
+- 只按官方API受限地区名称排除，香港优先而非香港限定；HEAD探针为 https://clob.polymarket.com/?polyclaw-health=1，严格200由路由器专用Ruby覆写补齐。
+- 已部署191.1并验证源/运行配置非目标内容和46个原选择均保持。完整验证、限制与回滚见 docs/POLYMARKET_FALLBACK_2026-11-04.md。
